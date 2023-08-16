@@ -1,7 +1,7 @@
 type: UnitFactory
 plans: [
    {
-    unit: eclipse
+    unit: mono
     requirements: [
        {
        item: silicon
