@@ -16,5 +16,48 @@ plans: [
        }
      ]
    }
+   {
+    unit: dagger
+    requirements: [
+       {
+       item: silicon
+       amount: 10
+       }
+       {
+       item: lead
+       amount: 10
+       }
+     ]
+   }
+   {
+    unit: crawler
+    requirements: [
+       {
+       item: silicon
+       amount: 8
+       }
+       {
+       item: coal
+       amount: 10
+       }
+     ]
+   }
+   {
+    unit: nova
+    requirements: [
+       {
+       item: silicon
+       amount: 30
+       }
+       {
+       item: lead
+       amount: 20
+       }
+       {
+       item: titanium
+       amount: 20
+       }
+     ]
+   }
  ]
 category: units
