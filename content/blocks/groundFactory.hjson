@@ -1,0 +1,21 @@
+type: UnitFactory
+plans: [
+   {
+    unit: eclipse
+    requirements: [
+       {
+       item: silicon
+       amount: 20
+       }
+       {
+       item: copper
+       amount: 20
+       }
+       {
+       item: titanium
+       amount: 10
+        }
+      ]
+    }
+  ]
+  category: units
