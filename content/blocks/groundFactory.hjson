@@ -14,8 +14,8 @@ plans: [
        {
        item: titanium
        amount: 10
-        }
-      ]
-    }
-  ]
-  category: units
+       }
+     ]
+   }
+ ]
+category: units
