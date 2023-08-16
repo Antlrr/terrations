@@ -1,6 +1,6 @@
 plans: [
    {
-    unit: mono
+    unit: reign
     requirements: [
        {
        item: silicon
@@ -28,6 +28,7 @@ plans: [
        amount: 10
        }
      ]
+     time: 900
    }
    {
     unit: crawler
@@ -41,6 +42,7 @@ plans: [
        amount: 10
        }
      ]
+     time: 600
    }
    {
     unit: nova
@@ -58,6 +60,7 @@ plans: [
        amount: 20
        }
      ]
+     time: 2400
    }
  ]
 category: units
