@@ -1,6 +1,6 @@
 plans: [
    {
-    unit: latum
+    unit: conquer
     requirements: [
        {
        item: lead
@@ -31,7 +31,7 @@ plans: [
      time: 2700
    }
    {
-    unit: mono
+    unit: retusa
     requirements: [
        {
        item: silicon
