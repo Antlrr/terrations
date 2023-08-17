@@ -1,22 +1,5 @@
 plans: [
    {
-    unit: conquer
-    requirements: [
-       {
-       item: lead
-       amount: 1
-       }
-       {
-       item: copper
-       amount: 20
-       }
-       {
-       item: graphite
-       amount: 10
-       }
-     ]
-   }
-   {
     unit: risso
     requirements: [
        {
@@ -47,6 +30,23 @@ plans: [
        }
      ]
      time: 3000
+   }
+   {
+    unit: conquer
+    requirements: [
+       {
+       item: lead
+       amount: 1
+       }
+       {
+       item: copper
+       amount: 20
+       }
+       {
+       item: graphite
+       amount: 10
+       }
+     ]
    }
  ]
 category: units
