@@ -46,7 +46,7 @@ plans: [
      time: 2400
    }
    {
-    unit: mace
+    unit: latum
     requirements: [
        {
        item: silicon
