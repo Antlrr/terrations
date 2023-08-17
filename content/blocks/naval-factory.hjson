@@ -32,7 +32,7 @@ plans: [
      time: 3000
    }
    {
-    unit: conquer
+    unit: mace
     requirements: [
        {
        item: lead
