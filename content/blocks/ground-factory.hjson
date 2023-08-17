@@ -46,7 +46,7 @@ plans: [
      time: 2400
    }
    {
-    unit: reign
+    unit: mace
     requirements: [
        {
        item: silicon
