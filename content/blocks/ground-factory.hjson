@@ -1,22 +1,5 @@
 plans: [
    {
-    unit: reign
-    requirements: [
-       {
-       item: silicon
-       amount: 20
-       }
-       {
-       item: copper
-       amount: 20
-       }
-       {
-       item: titanium
-       amount: 10
-       }
-     ]
-   }
-   {
     unit: dagger
     requirements: [
        {
@@ -61,6 +44,23 @@ plans: [
        }
      ]
      time: 2400
+   }
+   {
+    unit: reign
+    requirements: [
+       {
+       item: silicon
+       amount: 20
+       }
+       {
+       item: copper
+       amount: 20
+       }
+       {
+       item: titanium
+       amount: 10
+       }
+     ]
    }
  ]
 category: units
