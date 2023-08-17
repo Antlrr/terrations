@@ -46,7 +46,7 @@ plans: [
      time: 2400
    }
    {
-    unit: latum
+    unit: renale
     requirements: [
        {
        item: silicon
