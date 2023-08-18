@@ -56,6 +56,6 @@ abilities: [
    liquid: slag
    amount: 200
    radScale: 3
-   noiseMag: 3
+   noiseMag: 0.2
    }
 ]
