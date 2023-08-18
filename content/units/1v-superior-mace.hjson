@@ -2,13 +2,14 @@ localizedName": Superior Mace
 type: mech
 health: 860
 armor: 7
-rotateSpeed: 1
+rotateSpeed: 4.2
 outlineColor: 34353EFF
 hitSize: 24
 mechFrontSway: 0.55
 speed: 0.72
 flying: false
+faceTarget: true
 immunities: [
    burning
    melting
-   ]
+]
