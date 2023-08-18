@@ -79,6 +79,6 @@ abilities: [
    liquid: slag
    amount: 140
    radAmountScale: 5
-   radScale: 3
+   radScale: 1.2
    }
 ]
