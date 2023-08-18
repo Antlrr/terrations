@@ -30,7 +30,7 @@ immunities: [
 ]
 weapons: [
    {
-   name: terrations-slag-shooter
+   name: terration-slag-shooter
    x: 9
    top: false
    reload: 7
