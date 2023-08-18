@@ -23,9 +23,10 @@ weapons: [
    y: 0
    top: true
    reload: 1
-   inaccuracy: 14
+   inaccuracy: 12
    recoil: 0
    cooldownTime: 70
+   shootY: -0.4
    bullet: {
        type: BulletType
        damage: 14
@@ -39,7 +40,7 @@ weapons: [
           interp: circleOut
           lifetime: 50
           particles: 20
-          cone: 14
+          cone: 12
           colorFrom: FCDD88FF
           colorTo: D06B53FF
           sizeFrom: 4
