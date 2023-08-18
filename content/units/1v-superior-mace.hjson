@@ -1,9 +1,8 @@
-localizedName": Superior Mace
+localizedName: Superior Mace
 type: mech
 health: 960
-armor: 10
+armor: 8
 rotateSpeed: 4.2
-outlineColor: 34353EFF
 hitSize: 24
 mechFrontSway: 0.55
 speed: 0.72
@@ -23,7 +22,7 @@ weapons: [
    y: 0
    top: true
    reload: 1
-   inaccuracy: 12
+   inaccuracy: 10
    recoil: 0
    cooldownTime: 70
    shootY: -0.1
@@ -40,7 +39,7 @@ weapons: [
           interp: circleOut
           lifetime: 50
           particles: 20
-          cone: 12
+          cone: 10
           colorFrom: FCDD88FF
           colorTo: D06B53FF
           sizeFrom: 4
