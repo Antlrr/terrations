@@ -1,0 +1,30 @@
+description: big atrac.
+type: legs
+health: 880
+armor: 5
+hitSize: 19
+speed: 0.5
+drag: 0.3
+rotateSpeed: 2.8
+groundLayer: 75
+targetAir: false
+legCount: 4
+legLength: 10
+legContinuousMove: true
+legBaseOffset: 6
+legMaxLength: 1.8
+legMinLength: 1.2
+legLengthScl: 1.4
+legForwardScl: 1.2
+legGroupSize: 2
+rippleScale: 0.2
+legMoveSpace: 1.6
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.2
+faceTarget: true
+immunities: [
+   burning
+   melting
+]
