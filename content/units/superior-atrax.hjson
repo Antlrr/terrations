@@ -36,7 +36,7 @@ weapons: [
    x: 9.5
    shootY: 5
    top: false
-   reload: 7
+   reload: 14
    recoil: 1
    shootSound: flame
    shootEffect: shootSmall
