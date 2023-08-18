@@ -36,11 +36,14 @@ weapons: [
    x: 9.5
    shootY: 5
    top: false
-   reload: 14
+   reload: 7
    recoil: 1
    shootSound: flame
    shootEffect: shootSmall
    mirror: false
+   shoot: {
+      firstShotDelay: 7
+      }
    bullet: {
       type: LiquidBulletType
       liquid: slag
@@ -57,7 +60,7 @@ weapons: [
    x: -9.5
    shootY: 5
    top: false
-   reload: 14
+   reload: 7
    recoil: 1
    shootSound: flame
    shootEffect: shootSmall
