@@ -78,9 +78,8 @@ abilities: [
    type: LiquidExplodeAbility
    liquid: slag
    amount: 400
-   radAmountScale: 8
+   radAmountScale: 7
    radScale: 1
    noiseMagScl: 2.4
-   noiseMag: 4.4
    }
 ]
