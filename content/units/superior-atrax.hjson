@@ -39,6 +39,7 @@ weapons: [
    reload: 7
    recoil: 1
    shootSound: flame
+   shootEffect: shootSmall
    bullet: {
       type: LiquidBulletType
       liquid: slag
