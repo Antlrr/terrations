@@ -1,7 +1,7 @@
 localizedName": Superior Mace
 type: mech
-health: 860
-armor: 7
+health: 960
+armor: 10
 rotateSpeed: 4.2
 outlineColor: 34353EFF
 hitSize: 24
