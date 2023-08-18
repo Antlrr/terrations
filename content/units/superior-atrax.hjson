@@ -44,7 +44,7 @@ weapons: [
       liquid: slag
       damage: 20
       speed: 3
-      drag: 0.004
+      drag: 0.007
       lifetime: 60
       collidesAir: false
       }
