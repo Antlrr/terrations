@@ -80,6 +80,6 @@ abilities: [
    amount: 400
    radAmountScale: 5
    radScale: 2
-   noiseMag: 2.4
+   noiseMagScl: 2.4
    }
 ]
