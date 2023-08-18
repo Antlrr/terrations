@@ -50,3 +50,9 @@ weapons: [
       }
    }
 ]
+abilities: [
+   {
+   type: LiquidExplodeAbility
+   liquid: slag
+   }
+]
