@@ -1,7 +1,7 @@
 localizedName: Superior Atrax
 description: "Fires debilitating orbs of slag at ground targets. \nDrops slag upon death. \nCan step over most terrain."
 type: legs
-health: 880
+health: 980
 armor: 5
 hitSize: 19
 speed: 0.5
