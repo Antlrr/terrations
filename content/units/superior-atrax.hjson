@@ -30,9 +30,9 @@ immunities: [
 ]
 weapons: [
    {
-   name: terration-slag-shooter
+   name: slag-shooter
    x: 9
-   top: true
+   top: false
    reload: 7
    recoil: 1
    shootSound: flame
