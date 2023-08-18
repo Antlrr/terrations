@@ -26,7 +26,7 @@ weapons: [
    inaccuracy: 12
    recoil: 0
    cooldownTime: 70
-   shootY: -0.4
+   shootY: -0.1
    bullet: {
        type: BulletType
        damage: 14
