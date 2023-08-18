@@ -18,7 +18,9 @@ weapons: [
    shootSound: flame2
    shootCone: 18
    rotate: false
-   mirror: true
+   mirror: false
+   x: 0
+   y: 0
    top: true
    reload: 1
    inaccuracy: 14
@@ -40,7 +42,7 @@ weapons: [
           cone: 14
           colorFrom: FCDD88FF
           colorTo: D06B53FF
-          sizeFrom: 5
+          sizeFrom: 4
           sizeTo: 0
           }
        hitEffect: hitFlameSmall
