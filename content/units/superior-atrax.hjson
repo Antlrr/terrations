@@ -40,6 +40,28 @@ weapons: [
    recoil: 1
    shootSound: flame
    shootEffect: shootSmall
+   mirror: false
+   bullet: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 20
+      speed: 3
+      drag: 0.007
+      lifetime: 60
+      collidesAir: false
+      }
+   }
+   {
+   name: slag-shooter
+   y: 0.5
+   x: -9.5
+   shootY: 5
+   top: false
+   reload: 7
+   recoil: 1
+   shootSound: flame
+   shootEffect: shootSmall
+   mirror: false
    bullet: {
       type: LiquidBulletType
       liquid: slag
@@ -57,6 +79,6 @@ abilities: [
    liquid: slag
    amount: 400
    radAmountScale: 3
-   radScale: 1
+   radScale: 2
    }
 ]
