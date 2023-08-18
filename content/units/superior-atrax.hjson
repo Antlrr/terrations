@@ -54,5 +54,6 @@ abilities: [
    {
    type: LiquidExplodeAbility
    liquid: slag
+   amount: 200
    }
 ]
