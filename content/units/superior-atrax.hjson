@@ -32,7 +32,7 @@ weapons: [
    {
    name: terration-slag-shooter
    x: 9
-   top: false
+   top: true
    reload: 7
    recoil: 1
    shootSound: flame
