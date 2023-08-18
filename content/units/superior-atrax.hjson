@@ -28,3 +28,22 @@ immunities: [
    burning
    melting
 ]
+weapons: [
+   {
+   name: terrat-slag-shooter
+   x: 8
+   top: false
+   reload: 7
+   recoil: 1
+   shootSound: flame
+   bullet: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 20
+      speed: 3
+      drag: 0.004
+      lifetime: 60
+      collidesAir: false
+      }
+   }
+]
