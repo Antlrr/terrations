@@ -31,7 +31,8 @@ immunities: [
 weapons: [
    {
    name: slag-shooter
-   x: 9
+   x: 10
+   shootY: 4
    top: false
    reload: 7
    recoil: 1
