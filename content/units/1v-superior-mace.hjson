@@ -53,45 +53,4 @@ weapons: [
        hittable: false
       }
    }
-   {
-   shootSound: flame2
-   shootCone: 18
-   rotate: false
-   mirror: true
-   x: 0
-   y: 0
-   shootX: -1
-   shootY: 5
-   top: false
-   reload: 1
-   inaccuracy: 10
-   recoil: 0
-   cooldownTime: 70
-   baseRotation: 20
-   bullet: {
-       type: BulletType
-       damage: 14
-       lifetime: 40
-       pierce: true
-       pierceBuilding: true
-       statusDuration: 240
-       shootEffect: {
-          type: ParticleEffect
-          length: 60
-          interp: circleOut
-          lifetime: 86
-          particles: 8
-          cone: 10
-          colorFrom: FCDD88FF
-          colorTo: D06B53FF
-          sizeFrom: 4
-          sizeTo: 0
-          }
-       hitEffect: hitFlameSmall
-       despawnEffect: none
-       status: melting
-       keepVelocity: false
-       hittable: false
-      }
-   }
 ]
