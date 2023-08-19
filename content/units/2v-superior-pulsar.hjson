@@ -13,4 +13,4 @@ canBoost: true
 boostMultiplier: 1.7
 riseSpeed: 0.03
 engineOffset: 9.8
-enginsSize: 12
+engineSize: 8
