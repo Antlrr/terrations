@@ -51,6 +51,12 @@ weapons: [
        status: melting
        keepVelocity: false
        hittable: false
+       fragBullets: 3
+       fragRandomSpread: 10
+       fragBullet: {
+          type: FireBulletType
+          lifetime: 40
+         }
       }
    }
 ]
