@@ -11,3 +11,4 @@ flying: false
 faceTarget: false
 canBoost: true
 boostMultiplier: 2.3
+engineOffset: 4
