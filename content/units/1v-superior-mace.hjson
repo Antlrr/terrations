@@ -37,7 +37,7 @@ weapons: [
           type: ParticleEffect
           length: 60
           interp: circleOut
-          lifetime: 120
+          lifetime: 86
           particles: 8
           cone: 10
           colorFrom: FCDD88FF
