@@ -15,6 +15,7 @@ boostMultiplier: 1.7
 riseSpeed: 0.03
 engineOffset: 9.8
 engineSize: 5.8
+lowAltitude: true
 abilities: [
    {
    type: EnergyFieldAbility
@@ -22,7 +23,7 @@ abilities: [
    sectors: 3
    damage: 10
    reload: 40
-   layer: 116
+   layer: 115=0
    range: 110
    }
 ]
