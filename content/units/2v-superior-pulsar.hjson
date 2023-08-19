@@ -24,11 +24,13 @@ weapons: [
    rotate: false
    reload: 1
    inaccuracy: 30
+   shootSound: spark
    bullet: {
       type: LightningBulletType
       damage: 9
-      lightningLength: 7
-      lightningLengthRand: 4
+      shootEffect: none
+      lightningLength: 8
+      lightningLengthRand: 6
       lightningColor: 84F491FF
       }
    }
