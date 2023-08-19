@@ -1,4 +1,5 @@
 localizedName: Superior Mace
+description: "Fires a stream of flames at enemy targets."
 type: mech
 health: 960
 armor: 8
