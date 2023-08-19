@@ -31,10 +31,10 @@ weapons: [
    bullet: {
        type: BulletType
        damage: 14
-       lifetime: 34
+       lifetime: 30
        pierce: true
        pierceBuilding: true
-       statusDuration: 240
+       statusDuration: 180
        shootEffect: {
           type: ParticleEffect
           length: 60
