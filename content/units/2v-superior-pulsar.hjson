@@ -1,7 +1,7 @@
 localizedName: Superior Pulsar
 description: "getting real"
 type: mech
-health: 960
+health: 840
 armor: 6
 buildSpeed: 1.6
 rotateSpeed: 5.2
@@ -27,7 +27,7 @@ weapons: [
    shootSound: spark
    bullet: {
       type: LightningBulletType
-      damage: 9
+      damage: 6
       shootEffect: none
       lightningLength: 8
       lightningLengthRand: 6
@@ -51,8 +51,8 @@ abilities: [
    {
    type: ShieldRegenFieldAbility
    amount: 20
-   max: 100
-   reload: 240
+   max: 60
+   reload: 420
    range: 90
    }
 ]
