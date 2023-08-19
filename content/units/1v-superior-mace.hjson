@@ -12,6 +12,7 @@ immunities: [
    burning
    melting
 ]
+range: 40
 weapons: [
    {
    shootSound: flame2
