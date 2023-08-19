@@ -18,8 +18,11 @@ engineSize: 5.8
 abilities: [
    {
    type: EnergyFieldAbility
+   sectorRad: 0.5
+   sectors: 2
    damage: 10
-   reload: 10
+   reload: 40
    layer: 116
+   range: 110
    }
 ]
