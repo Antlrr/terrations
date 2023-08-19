@@ -19,8 +19,8 @@ lowAltitude: true
 abilities: [
    {
    type: EnergyFieldAbility
-   sectorRad: 0.1
-   sectors: 3
+   sectorRad: 0.3
+   sectors: 2
    damage: 10
    reload: 40
    layer: 110
