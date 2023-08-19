@@ -21,7 +21,7 @@ weapons: [
    mirror: false
    x: 0
    y: 0
-   top: true
+   top: false
    reload: 1
    inaccuracy: 10
    recoil: 0
@@ -57,10 +57,10 @@ weapons: [
    shootSound: flame2
    shootCone: 18
    rotate: false
-   mirror: false
+   mirror: true
    x: -1
    y: 5
-   top: true
+   top: false
    reload: 1
    inaccuracy: 10
    recoil: 0
