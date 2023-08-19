@@ -19,7 +19,7 @@ lowAltitude: true
 abilities: [
    {
    type: EnergyFieldAbility
-   sectorRad: 0.5
+   sectorRad: 0.3
    sectors: 3
    damage: 10
    reload: 40
