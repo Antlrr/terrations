@@ -42,12 +42,13 @@ abilities: [
    sectorRad: 0.38
    sectors: 2
    effectRadius: 4.3
-   damage: 10
+   damage: 12
    reload: 80
    layer: 110
    range: 110
-   healPercent: 0.54
+   healPercent: 0.75
    sameTypeHealMult: 0.6
+   maxTargets: 10
    }
    {
    type: ShieldRegenFieldAbility
