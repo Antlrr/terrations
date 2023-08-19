@@ -43,7 +43,7 @@ abilities: [
    sectors: 2
    effectRadius: 4.3
    damage: 10
-   reload: 50
+   reload: 80
    layer: 110
    range: 110
    healPercent: 0.54
