@@ -14,3 +14,10 @@ boostMultiplier: 1.7
 riseSpeed: 0.03
 engineOffset: 9.8
 engineSize: 5.8
+abilities: [
+   {
+   type: EnergyFieldAbility
+   damage: 10
+   reload: 10
+   }
+]
