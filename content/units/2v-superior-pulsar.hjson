@@ -46,4 +46,11 @@ abilities: [
    layer: 110
    range: 110
    }
+   {
+   type: ShieldRegenFieldAbility
+   amount: 20
+   max: 100
+   reload: 240
+   range: 90
+   }
 ]
