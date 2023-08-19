@@ -16,6 +16,7 @@ riseSpeed: 0.03
 engineOffset: 9.8
 engineSize: 5.8
 lowAltitude: true
+range: 65
 weapons: [
    {
    x: 0
