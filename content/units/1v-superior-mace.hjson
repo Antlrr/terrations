@@ -67,7 +67,7 @@ weapons: [
    inaccuracy: 10
    recoil: 0
    cooldownTime: 70
-   basRotation: 20
+   baseRotation: 20
    bullet: {
        type: BulletType
        damage: 14
