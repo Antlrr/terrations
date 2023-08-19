@@ -29,12 +29,8 @@ weapons: [
    recoil: 0
    cooldownTime: 100
    bullet: {
-       type: BulletType
-       damage: 14
-       lifetime: 40
-       pierce: true
-       pierceBuilding: true
-       statusDuration: 240
+       type: FireBulletType
+       lifetime: 1
        shootEffect: {
           type: ParticleEffect
           length: 60
@@ -47,16 +43,20 @@ weapons: [
           sizeFrom: 4
           sizeTo: 0
           }
-       hitEffect: hitFlameSmall
-       despawnEffect: none
-       status: melting
-       keepVelocity: false
-       hittable: false
        fragBullets: 3
        fragRandomSpread: 10
        fragBullet: {
-          type: FireBulletType
+          type: BulletType
+          damage: 14
           lifetime: 40
+          pierce: true
+          pierceBuilding: true
+          statusDuration: 240
+          hitEffect: hitFlameSmall
+          despawnEffect: none
+          status: melting
+          keepVelocity: false
+          hittable: false
          }
       }
    }
