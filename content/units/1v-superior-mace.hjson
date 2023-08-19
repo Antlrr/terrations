@@ -15,6 +15,7 @@ immunities: [
 range: 40
 weapons: [
    {
+   name: 1v-superior-mace
    shootSound: flame2
    shootCone: 18
    rotate: false
@@ -25,11 +26,8 @@ weapons: [
    reload: 1
    inaccuracy: 10
    recoil: 0
-   cooldownTime: 70
+   cooldownTime: 120
    shootY: -0.1
-   textureRegion: {
-      heatRegion: terratioon-1v-superior-mace-heat
-      }
    bullet: {
        type: BulletType
        damage: 14
