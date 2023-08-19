@@ -39,13 +39,13 @@ weapons: [
    reload: 24
    recoil: 1
    shootSound: flame
-   shootEffect: shootSmall
    mirror: false
    shoot: {
       firstShotDelay: 12
       }
    bullet: {
       type: LiquidBulletType
+      shootEffect: shootSmall
       liquid: slag
       damage: 20
       speed: 3
