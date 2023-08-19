@@ -58,8 +58,10 @@ weapons: [
    shootCone: 18
    rotate: false
    mirror: true
-   x: -1
-   y: 5
+   x: 0
+   y: 0
+   shootX: -1
+   shootY: 5
    top: false
    reload: 1
    inaccuracy: 10
