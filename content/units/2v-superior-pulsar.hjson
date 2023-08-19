@@ -21,6 +21,7 @@ abilities: [
    type: EnergyFieldAbility
    sectorRad: 0.3
    sectors: 2
+   effectRadius: 0.7
    damage: 10
    reload: 40
    layer: 110
