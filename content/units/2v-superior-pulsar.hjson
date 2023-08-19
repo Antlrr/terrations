@@ -10,5 +10,7 @@ speed: 0.95
 flying: false
 faceTarget: false
 canBoost: true
-boostMultiplier: 2.3
-engineOffset: 4
+boostMultiplier: 1.7
+riseSpeed: 0.04
+engineOffset: 8
+enginsSize: 5.5
