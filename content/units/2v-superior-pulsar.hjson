@@ -23,7 +23,7 @@ abilities: [
    sectors: 3
    damage: 10
    reload: 40
-   layer: 115=0
+   layer: 110
    range: 110
    }
 ]
