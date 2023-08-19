@@ -3,6 +3,7 @@ description: "getting real"
 type: mech
 health: 960
 armor: 6
+buildSpeed: 1.6
 rotateSpeed: 5.2
 hitSize: 24
 mechFrontSway: 0.24
