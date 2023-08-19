@@ -45,6 +45,8 @@ abilities: [
    reload: 40
    layer: 110
    range: 110
+   healPercent: 0.92
+   sameTypeHealMult: 0.6
    }
    {
    type: ShieldRegenFieldAbility
