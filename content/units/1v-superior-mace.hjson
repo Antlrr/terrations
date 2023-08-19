@@ -27,7 +27,7 @@ weapons: [
    recoil: 0
    cooldownTime: 70
    shootY: -0.1
-   heatRegion: terration-1v-superior-mace-heat
+   heatRegion: 1v-superior-mace-heat
    bullet: {
        type: BulletType
        damage: 14
