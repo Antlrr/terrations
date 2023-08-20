@@ -62,7 +62,8 @@ abilities: [
    {
    type: ShieldArcAbility
    max: 360
-   region: pulsar-shield
+   region: terration-pulsar-shield
+   whenShooting: false
    regen: 0.5
    }
 ]
