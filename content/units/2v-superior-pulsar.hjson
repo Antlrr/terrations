@@ -3,7 +3,7 @@ health: 840
 armor: 6
 buildSpeed: 1.6
 rotateSpeed: 5.2
-hitSize: 22
+hitSize: 20
 mechFrontSway: 0.24
 speed: 0.95
 flying: false
