@@ -62,7 +62,7 @@ abilities: [
    {
    type: ShieldArcAbility
    max: 460
-   drawArc: true
+   drawArc: false
    region: terration-pulsar-shield
    radius: 14
    width: 30
