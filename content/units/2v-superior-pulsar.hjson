@@ -3,7 +3,7 @@ health: 840
 armor: 6
 buildSpeed: 1.6
 rotateSpeed: 5.2
-hitSize: 21
+hitSize: 22
 mechFrontSway: 0.24
 speed: 0.95
 flying: false
@@ -63,10 +63,10 @@ abilities: [
    type: ShieldArcAbility
    max: 460
    drawArc: true
-   radius: 12
+   radius: 23
    cooldown: 360
    whenShooting: false
-   angle: 84
+   angle: 82
    regen: 0.6
    }
 ]
