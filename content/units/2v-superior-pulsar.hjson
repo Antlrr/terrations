@@ -62,6 +62,8 @@ abilities: [
    {
    type: ShieldArcAbility
    max: 360
+   drawArc: false
+   cooldown: 360
    region: terration-pulsar-shield
    whenShooting: false
    regen: 0.5
