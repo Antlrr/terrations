@@ -59,4 +59,10 @@ abilities: [
    reload: 460
    range: 90
    }
+   {
+   type: ShieldArcAbility
+   max: 360
+   region: pulsar-shield
+   regen: 0.5
+   }
 ]
