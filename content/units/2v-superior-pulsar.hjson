@@ -63,7 +63,7 @@ abilities: [
    type: ShieldArcAbility
    max: 360
    drawArc: true
-   radius: 8
+   radius: 26
    cooldown: 360
    region: terration-pulsar-shield
    whenShooting: false
