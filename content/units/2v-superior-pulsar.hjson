@@ -68,6 +68,7 @@ abilities: [
    cooldown: 360
    whenShooting: false
    angle: 82
+   y: 2
    regen: 0.6
    }
 ]
