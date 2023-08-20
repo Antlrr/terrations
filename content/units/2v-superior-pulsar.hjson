@@ -26,6 +26,7 @@ weapons: [
    shootSound: spark
    shoot: {
       shots: 6
+      shotDelay: 0.3
       }
    bullet: {
       type: LightningBulletType
