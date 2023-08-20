@@ -66,6 +66,7 @@ abilities: [
    region: terration-pulsar-shield
    radius: 14
    width: 40
+   y: -30
    cooldown: 360
    whenShooting: false
    angle: 82
