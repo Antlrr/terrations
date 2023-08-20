@@ -21,9 +21,12 @@ weapons: [
    y: 0
    mirror: false
    rotate: false
-   reload: 1
+   reload: 40
    inaccuracy: 30
    shootSound: spark
+   shoot: {
+      shots: 6
+      }
    bullet: {
       type: LightningBulletType
       damage: 6
