@@ -65,8 +65,8 @@ abilities: [
    drawArc: true
    radius: 12
    cooldown: 360
-   region: terration-pulsar-shield
    whenShooting: false
-   regen: 1
+   angle: 84
+   regen: 0.6
    }
 ]
