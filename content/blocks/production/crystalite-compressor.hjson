@@ -20,8 +20,8 @@ drawer: {
       circleSpace: 1
       circleStroke: 0.8
       flameRad: 0.6
-      particles: 10
-      particleStroke: 0.4
+      particles: 15
+      particleStroke: 0.8
       particleLen: 2.3
       }
    ]
@@ -47,7 +47,7 @@ effects: [
       lightColor: FFBDEEFF
       colorFrom: FFBDEE95
       colorTo: FFBDEE8A
-      sizeFrom: 0.8
+      sizeFrom: 1.3
       sizeTo: 0
       }
     ]
