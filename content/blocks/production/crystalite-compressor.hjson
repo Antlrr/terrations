@@ -26,15 +26,15 @@ type: multiEffect
 effects: [
       {
       type: ParticleEffect
-      particles: 4
-      length: -10
+      particles: 6
+      length: -8
       baseLength: 0
       lifetime: 70
       interp: pow5Out
       sizeInterp: pow10In
       lightColor: FFBDEEFF
-      colorFrom: FFBDEEFF
-      colorTo: FFBDEEAE
+      colorFrom: FFBDEE95
+      colorTo: FFBDEE8A
       sizeFrom: 2
       sizeTo: 0
       }
