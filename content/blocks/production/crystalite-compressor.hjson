@@ -28,7 +28,7 @@ effects: [
       type: ParticleEffect
       particles: 4
       length: 6
-      lifetime: 15
+      lifetime: 40
       interp: swingIn
       sizeInterp: pow5Out
       lightColor: FFBDEEFF
