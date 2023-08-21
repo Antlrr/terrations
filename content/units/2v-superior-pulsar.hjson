@@ -40,6 +40,19 @@ weapons: [
 ]
 abilities: [
    {
+   type: ShieldArcAbility
+   max: 460
+   drawArc: true
+   max: 360
+   width: 24
+   radius: 14
+   cooldown: 360
+   whenShooting: false
+   angle: 82
+   y: 2
+   regen: 0.6
+   }
+   {
    type: EnergyFieldAbility
    sectorRad: 0.38
    sectors: 2
@@ -58,18 +71,5 @@ abilities: [
    max: 60
    reload: 460
    range: 90
-   }
-   {
-   type: ShieldArcAbility
-   max: 460
-   drawArc: true
-   max: 360
-   width: 24
-   radius: 14
-   cooldown: 360
-   whenShooting: false
-   angle: 82
-   y: 2
-   regen: 0.6
    }
 ]
