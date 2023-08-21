@@ -1,5 +1,5 @@
 type: GenericCrafter
-craftTime: 60
+craftTime: 45
 size: 2
 health: 400
 drawer: {
@@ -29,7 +29,7 @@ drawer: {
 consumes: {
     items: {
      items: [
-        graphite/3
+        graphite/2
         ]
     }
 }
