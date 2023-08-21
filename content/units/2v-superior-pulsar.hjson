@@ -40,17 +40,14 @@ weapons: [
 ]
 abilities: [
    {
-   type: ShieldArcAbility
+   type: ForceFieldAbility
    max: 460
-   drawArc: true
    max: 360
-   width: 24
-   radius: 45
+   radius: 23
    cooldown: 360
-   whenShooting: false
-   angle: 82
-   y: 2
+   whenShooting: true
    regen: 0.6
+   sides: 3
    }
    {
    type: EnergyFieldAbility
