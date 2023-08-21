@@ -45,7 +45,7 @@ abilities: [
    max: 360
    radius: 32
    cooldown: 360
-   whenShooting: true
+   rotation: 45
    regen: 0.6
    sides: 4
    }
