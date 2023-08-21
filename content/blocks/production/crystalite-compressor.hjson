@@ -59,7 +59,15 @@ outputItem: {
 requirements: [
    {
    item: copper
-   amount: 1
+   amount: 100
+   }
+   {
+   item: lead
+   amount: 70
+   }
+   {
+   item: graphite
+   amount: 55
    }
 ]
 category: crafting
