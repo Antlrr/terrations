@@ -1,5 +1,5 @@
 type: GenericCrafter
-craftTime: 25
+craftTime: 50
 size: 2
 health: 400
 drawer: {
@@ -21,6 +21,24 @@ consumes: {
         ]
     }
 }
+craftEffect: {
+type: multiEffect
+effects: [
+      {
+      type: ParticleEffect
+      particles: 4
+      length: 6
+      lifetime: 15
+      interp: swingIn
+      sizeInterp: pow5Out
+      lightColor: FFBDEEFF
+      colorFrom: FFBDEEFF
+      colorTo: FFBDEE00
+      sizeFrom: 4
+      sizeTo: 0
+      }
+    ]
+  }
 outputItem: {
    item: terration-1crystalite
    amount: 1
