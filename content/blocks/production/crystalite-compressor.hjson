@@ -7,7 +7,7 @@ drawer: {
    drawers: [
       {
       type: DrawPistons
-      sinMag: 0.6
+      sinMag: 1
       }
       { 
       type: DrawDefault
