@@ -30,8 +30,8 @@ effects: [
       length: -10
       baseLength: 0
       lifetime: 60
-      interp: pow5In
-      sizeInterp: pow10Out
+      interp: pow5Out
+      sizeInterp: pow10In
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
       colorTo: FFBDEE00
