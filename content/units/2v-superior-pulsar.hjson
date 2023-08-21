@@ -45,7 +45,7 @@ abilities: [
    drawArc: true
    max: 360
    width: 24
-   radius: 14
+   radius: 45
    cooldown: 360
    whenShooting: false
    angle: 82
