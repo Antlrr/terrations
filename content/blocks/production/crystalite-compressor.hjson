@@ -27,11 +27,11 @@ effects: [
       {
       type: ParticleEffect
       particles: 4
-      length: 8
+      length: -10
       baseLength: 0
       lifetime: 60
       interp: swingIn
-      sizeInterp: pow5Out
+      sizeInterp: pow5In
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
       colorTo: FFBDEE00
