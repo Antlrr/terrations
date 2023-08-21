@@ -35,7 +35,7 @@ effects: [
       lightColor: FFBDEEFF
       colorFrom: FFBDEE95
       colorTo: FFBDEE8A
-      sizeFrom: 2
+      sizeFrom: 0.8
       sizeTo: 0
       }
     ]
