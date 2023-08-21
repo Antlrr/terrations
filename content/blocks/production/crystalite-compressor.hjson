@@ -17,7 +17,7 @@ drawer: {
 consumes: {
     items: {
      items: [
-        graphite/2
+        graphite/3
         ]
     }
 }
@@ -27,14 +27,15 @@ effects: [
       {
       type: ParticleEffect
       particles: 4
-      length: 6
-      lifetime: 40
+      length: 8
+      baseLength: 0
+      lifetime: 60
       interp: swingIn
       sizeInterp: pow5Out
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
       colorTo: FFBDEE00
-      sizeFrom: 4
+      sizeFrom: 3
       sizeTo: 0
       }
     ]
