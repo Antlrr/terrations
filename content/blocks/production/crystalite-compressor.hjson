@@ -6,6 +6,11 @@ drawer: {
    type: DrawMulti
    drawers: [
       {
+      type: DrawArcSmelter
+      midColor: FFBDEEFF
+      flameColor: C189D6FF
+      }
+      {
       type: DrawPistons
       sinMag: 1
       }
