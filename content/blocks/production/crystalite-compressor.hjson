@@ -15,7 +15,7 @@ drawer: {
    ]
 }
 consumes: {
-   items:: {
+    items: {
      items: [
         graphite/2
         ]
