@@ -1,5 +1,5 @@
 type: GenericCrafter
-craftTime: 50
+craftTime: 60
 size: 2
 health: 400
 drawer: {
