@@ -16,6 +16,13 @@ drawer: {
       type: DrawArcSmelt
       midColor: FFBDEEFF
       flameColor: C189D6FF
+      flameRadiusScl: 0.8
+      circleSpace: 1
+      circleStroke: 0.8
+      flameRad: 0.6
+      particles: 10
+      particleStroke: 0.4
+      particleLen: 2.3
       }
    ]
 }
