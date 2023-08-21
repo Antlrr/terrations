@@ -43,11 +43,11 @@ abilities: [
    type: ForceFieldAbility
    max: 460
    max: 360
-   radius: 23
+   radius: 32
    cooldown: 360
    whenShooting: true
    regen: 0.6
-   sides: 3
+   sides: 4
    }
    {
    type: EnergyFieldAbility
