@@ -1,0 +1,33 @@
+type: GenericCrafter
+craftTime: 25
+size: 2
+health: 400
+drawer: {
+   type: DrawMulti
+   drawers: [
+      { 
+      type: DrawDefault
+      }
+      {
+      type: DrawPistons
+      sinMag: 1
+      }
+   ]
+}
+consumes: {
+   items:: {
+     items: [
+        graphite/2
+        ]
+    }
+}
+outputItem: {
+   item: terration-1crystalite
+   amount: 1
+}
+requirements: [
+   {
+   item: copper
+   amount: 1
+   }
+]
