@@ -5,12 +5,12 @@ health: 400
 drawer: {
    type: DrawMulti
    drawers: [
-      { 
-      type: DrawDefault
-      }
       {
       type: DrawPistons
       sinMag: 1
+      }
+      { 
+      type: DrawDefault
       }
    ]
 }
