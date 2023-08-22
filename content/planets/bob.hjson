@@ -6,8 +6,8 @@ mesh: {
   planet: bob
   seed: 69
   divisions: 5
-  color1: 32354FFF
-  color2: 61658FFF
+  color1: 32354F
+  color2: 61658F
   radius: 1
   octaves: 0.6
   persistence: 1
@@ -21,7 +21,7 @@ cloudMesh: {
   speed: 0.32
   radius: 0.08
   divisions: 6
-  color: 61658FFF
+  color: 61658F
   octaves: 3
   persistence: 0.2
   scl: 1
@@ -37,7 +37,7 @@ generator: {
   min: 70
   max: 90
   radMin: 160
-  radMax: 470
+  radMax: 320
   iceChance: 3
   carbonChance: 0
   berylChance: 0
@@ -69,6 +69,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
-parent: erekir
+parent: sun
 solarSystem: sun
 launchCandidates: []
