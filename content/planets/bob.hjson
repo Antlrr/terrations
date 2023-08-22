@@ -68,7 +68,6 @@ allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
-defaultCore: coreSharded
 parent: serpulo
 solarSystem: sun
 launchCandidates: []
