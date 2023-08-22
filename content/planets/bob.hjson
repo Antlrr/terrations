@@ -69,6 +69,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
-parent: serpulo
+parent: erekir
 solarSystem: sun
 launchCandidates: []
