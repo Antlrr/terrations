@@ -16,7 +16,7 @@ mesh: {
 }
 cloudMesh: {
   type: HexSkyMesh
-  planet: asthosus
+  planet: bob
   seed: 15
   speed: 0.32
   radius: 0.08
