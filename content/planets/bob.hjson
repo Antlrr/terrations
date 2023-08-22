@@ -1,0 +1,74 @@
+localizedName: Bob
+description: it's bob
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: bob
+  seed: 69
+  divisions: 5
+  color1: 32354FFF
+  color2: 61658FFF
+  radius: 1.2
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1
+}
+cloudMesh: {
+  type: HexSkyMesh
+  planet: bob
+  seed: 15
+  speed: 0.32
+  radius: 0.08
+  divisions: 6
+  color: 61658FFF
+  octaves: 3
+  persistence: 0.7
+  scl: 1
+  thresh: 0.6
+}
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 4
+allowLaunchSchematics: true
+allowLaunchToNumbered: true
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 3.6
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+orbitRadius: 20
+updateLighting: false
+sectorSeed: 14513
+bloom: true
+visible: true
+atmosphereColor: FFBDEEFF
+iconColor: FFBDEEFF
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+launchCandidates: []
