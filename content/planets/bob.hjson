@@ -5,7 +5,7 @@ mesh: {
   type: NoiseMesh
   planet: bob
   seed: 69
-  divisions: 6
+  divisions: 5
   color1: 32354FFF
   color2: 61658FFF
   radius: 1
@@ -31,17 +31,17 @@ generator: {
   type: PlanetGenerator
   octaves: 3
   persistence: 0.52
-  scale: 22
+  scale: 50
   mag: 0.721
   thresh: 1.152
-  min: 60
-  max: 70
+  min: 70
+  max: 90
   radMin: 160
   radMax: 470
-  iceChance: 0.51
-  carbonChance: 0.32
+  iceChance: 3
+  carbonChance: 0
   berylChance: 0
-  ferricChance: 0.26
+  ferricChance: 0
 }
 sectorSize: 1.5
 allowLaunchSchematics: true
