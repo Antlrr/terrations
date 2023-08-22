@@ -8,7 +8,7 @@ mesh: {
   divisions: 5
   color1: FF9BE6FF
   color2: 61658FFF
-  radius: 0.6
+  radius: 0.5
   octaves: 4
   persistence: 1
   scale: 0.75
@@ -49,7 +49,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0
-orbitSpacing: 4
+orbitSpacing: 2.4
 radius: 1.2
 minZoom: 1.5
 drawOrbit: true
