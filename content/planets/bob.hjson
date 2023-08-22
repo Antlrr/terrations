@@ -50,13 +50,13 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0
 orbitSpacing: 2.4
-radius: 1.2
+radius: 0.5
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
-orbitRadius: 24
+orbitRadius: 12
 updateLighting: false
 sectorSeed: 14513
 bloom: false
