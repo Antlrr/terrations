@@ -8,7 +8,7 @@ mesh: {
   divisions: 6
   color1: 32354FFF
   color2: 61658FFF
-  radius: 0.4
+  radius: 1
   octaves: 0.6
   persistence: 1
   scale: 0.75
