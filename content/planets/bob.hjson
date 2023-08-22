@@ -43,7 +43,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 1
+sectorSize: 1.5
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
@@ -57,7 +57,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 orbitRadius: 50
-updateLighting: false
+updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
@@ -69,6 +69,6 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 defaultCore: core-shard
-parent: sun
+parent: serpulo
 solarSystem: sun
 launchCandidates: []
