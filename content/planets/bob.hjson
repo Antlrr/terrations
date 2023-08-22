@@ -6,24 +6,24 @@ mesh: {
   planet: bob
   seed: 69
   divisions: 5
-  color1: 32354F
-  color2: 61658F
+  color1: FF9BE6FF
+  color2: 61658FFF
   radius: 1
-  octaves: 0.6
+  octaves: 4
   persistence: 1
   scale: 0.75
   mag: 1
 }
 cloudMesh: {
   type: HexSkyMesh
-  planet: bob
+  planet: asthosus
   seed: 15
   speed: 0.32
   radius: 0.08
   divisions: 6
-  color: 61658F
+  color: FF9BE6FF
   octaves: 3
-  persistence: 0.2
+  persistence: 0.7
   scl: 1
   thresh: 0.6
 }
@@ -31,44 +31,44 @@ generator: {
   type: PlanetGenerator
   octaves: 3
   persistence: 0.52
-  scale: 50
+  scale: 22
   mag: 0.721
   thresh: 1.152
-  min: 70
-  max: 90
-  radMin: 160
-  radMax: 320
-  iceChance: 3
-  carbonChance: 0
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
   berylChance: 0
-  ferricChance: 0
+  ferricChance: 0.26
 }
-sectorSize: 1.5
+sectorSize: 1
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0
-orbitSpacing: 3.6
-radius: 0.8
+orbitSpacing: 4
+radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
-orbitRadius: 13
-updateLighting: true
+orbitRadius: 24
+updateLighting: false
 sectorSeed: 14513
-bloom: true
+bloom: false
 visible: true
-atmosphereColor: FFBDEEFF
-iconColor: FF8AE2FF
+atmosphereColor: FF8CE2FF
+iconColor: FF8CE2FF
 hasAtmosphere: true
 allowWaveSimulation: true
-clearSectorOnLose: true
+clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
-parent: sun
+defaultCore: core-sharded
+parent: serpulo
 solarSystem: sun
 launchCandidates: []
