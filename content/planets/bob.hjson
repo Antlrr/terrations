@@ -12,7 +12,7 @@ mesh: {
   octaves: 0.6
   persistence: 1
   scale: 0.75
-  mag: 3
+  mag: 1
 }
 cloudMesh: {
   type: HexSkyMesh
@@ -34,10 +34,10 @@ generator: {
   scale: 22
   mag: 0.721
   thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
+  min: 60
+  max: 70
+  radMin: 160
+  radMax: 470
   iceChance: 0.51
   carbonChance: 0.32
   berylChance: 0
