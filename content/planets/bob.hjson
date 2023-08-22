@@ -5,10 +5,10 @@ mesh: {
   type: NoiseMesh
   planet: bob
   seed: 69
-  divisions: 5
+  divisions: 6
   color1: 32354FFF
   color2: 61658FFF
-  radius: 1.2
+  radius: 0.4
   octaves: 4
   persistence: 1
   scale: 0.75
@@ -50,13 +50,13 @@ allowLaunchLoadout: true
 allowSectorInvasion: true
 startSector: 0
 orbitSpacing: 3.6
-radius: 1.2
+radius: 0.7
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
-orbitRadius: 50
+orbitRadius: 13
 updateLighting: true
 sectorSeed: 14513
 bloom: true
