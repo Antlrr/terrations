@@ -8,7 +8,7 @@ mesh: {
   divisions: 5
   color1: FF9BE6FF
   color2: 61658FFF
-  radius: 1
+  radius: 0.6
   octaves: 4
   persistence: 1
   scale: 0.75
@@ -36,8 +36,8 @@ generator: {
   thresh: 1.152
   min: 100
   max: 100
-  radMin: 220
-  radMax: 600
+  radMin: 120
+  radMax: 340
   iceChance: 0.51
   carbonChance: 0.32
   berylChance: 0
