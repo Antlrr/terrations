@@ -1,0 +1,23 @@
+type: UnitAssembler
+size: 5
+areaSize: 12
+droneType: assembly-drone
+dronesCreated: 6
+droneConstructTime: 40
+category: units
+consumes: {
+  power: 1
+}
+plans: [
+   {
+   unit: renale
+   requirements: [
+      conveyor/13
+      dagger/1
+      ]
+      time: 60
+   }
+]
+requirements: [
+   copper/1
+   ]
