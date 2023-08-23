@@ -17,10 +17,10 @@ mesh: {
 cloudMesh: {
   type: HexSkyMesh
   planet: bob
-  seed: 15
+  seed: 14
   speed: 0.32
   radius: 0.08
-  divisions: 6
+  divisions: 2
   color: FF9BE6FF
   octaves: 3
   persistence: 0.7
@@ -40,7 +40,7 @@ generator: {
   radMax: 340
   iceChance: 0.51
   carbonChance: 0.32
-  berylChance: 0
+  berylChance: 0.30
   ferricChance: 0.26
 }
 sectorSize: 1
@@ -48,7 +48,7 @@ allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: true
-startSector: 0
+startSector: 2
 orbitSpacing: 2.4
 radius: 0.5
 minZoom: 1.5
