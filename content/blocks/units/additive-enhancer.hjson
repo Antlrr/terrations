@@ -1,8 +1,8 @@
 type: UnitAssembler
 size: 5
 areaSize: 12
-droneType: assembly-drone
-dronesCreated: 6
+droneType: quell-missile
+dronesCreated: 4
 droneConstructTime: 40
 category: units
 consumes: {
