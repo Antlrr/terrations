@@ -1,7 +1,7 @@
 type: UnitAssembler
 size: 5
 areaSize: 12
-droneType: quell-missile
+droneType: assembly-drone
 dronesCreated: 4
 droneConstructTime: 40
 category: units
