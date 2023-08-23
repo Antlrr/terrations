@@ -34,7 +34,7 @@ weapons: [
    x: 9.5
    shootY: 5
    top: false
-   reload: 9e999
+   reload: 24
    recoil: 1
    shootSound: flame
    mirror: false
