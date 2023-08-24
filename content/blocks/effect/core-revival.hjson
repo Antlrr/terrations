@@ -1,0 +1,23 @@
+type: CoreBlock
+isFirstTier: true
+health: 2000
+size: 3
+itemCapacity: 4200
+unitCapModifier: 8
+researchCostMultiplier: 0.06
+unitType: pulsar
+requirements: [
+   {
+   item: crystalite
+   amount: 1000
+   }
+   {
+   item: tenite
+   amount: 1000
+   }
+   {
+   item: lead
+   amount: 800
+   }
+]
+category: effect
