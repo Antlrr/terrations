@@ -8,11 +8,11 @@ researchCostMultiplier: 0.06
 unitType: pulsar
 requirements: [
    {
-   item: crystalite
+   item: 1crystalite
    amount: 1000
    }
    {
-   item: tenite
+   item: 2tenite
    amount: 1000
    }
    {
