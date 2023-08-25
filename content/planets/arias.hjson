@@ -130,11 +130,11 @@ cloudMesh: [
     speed: 3
     divisions: 6
     //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
-    radius: 0.2
+    radius: 0.1
     //cloud colour
     color: FFFFF2FF
     //more explodey values, they're even more sensitive here
-    octaves: 3
+    octaves: 1
     persistence: 0.5
     scl: 1
     thresh: 0.43
@@ -145,9 +145,9 @@ cloudMesh: [
     divisions: 6
     radius: 0.11
     color: e8effabb
-    octaves: 3
+    octaves: 1
     persistence: 0.5
-    scl: 0.9
+    scl: 1
     thresh: 0.43
   }
 ]
