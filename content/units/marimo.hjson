@@ -14,3 +14,14 @@ rotateShooting: false
 canBoost: true
 boostMultiplier: 1.2
 outlineColor: 363851FF
+weapons: [
+   {
+   name: build-mount-weapon
+   type: BuildWeapon
+   top: true
+   rotate: true
+   rotateSpeed: 7
+   y: 3
+   }
+]
+   
