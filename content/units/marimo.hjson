@@ -12,5 +12,5 @@ trailScl: 1.2
 trailLength: 20
 rotateShooting: false
 canBoost: true
-boostMultiplier: 0.2
+boostMultiplier: 1.2
 outlineColor: 363851FF
