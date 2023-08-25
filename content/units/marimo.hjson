@@ -6,10 +6,11 @@ hitSize: 16
 health: 300
 speed: 0.98
 accel: 0.2
-rotateSpeed: 0.8
+rotateSpeed: 5.1
 trailX: 6
 trailScl: 1.2
 trailLength: 20
 rotateShooting: false
 canBoost: true
 boostMultiplier: 0.2
+outlineColor: 363851FF
