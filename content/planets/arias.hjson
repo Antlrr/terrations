@@ -74,68 +74,8 @@ mesh:
     cscl: 0.5
     cthresh: 2
   }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 0.945
-    color1: 6aa95e
-    color2: 80cb71
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 1
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 0.83
-    color1: 7a7a7a
-    color2: 7a7a7a
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 2.2
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 0.74
-    color1: d1efff
-    color2: d1efff
-    octaves: 4.6
-    persistence: 0.9
-    scale: 0.7
-    mag: 3.3
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 0.925
-    color1: a6896f
-    color2: d3ae8d
-    octaves: 4.6
-    persistence: 0.65
-    scale: 0.6
-    mag: 1
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
 //mesh to use for drawing the clouds, essentially just a second mesh
-cloudMesh: [
+cloudMesh: 
   {
     type: HexSkyMesh
     //rotate speed 
@@ -151,15 +91,3 @@ cloudMesh: [
     scl: 1
     thresh: 0.43
   }
-  {
-    type: HexSkyMesh
-    speed: 2
-    divisions: 6
-    radius: 0.11
-    color: e8effabb
-    octaves: 3
-    persistence: 0.5
-    scl: 0.9
-    thresh: 0.43
-  }
-]
