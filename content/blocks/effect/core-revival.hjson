@@ -5,7 +5,7 @@ size: 3
 itemCapacity: 4200
 unitCapModifier: 8
 researchCostMultiplier: 0.06
-unitType: marimo
+unitType: terration-marimo
 requirements: [
    {
    item: 1crystalite
