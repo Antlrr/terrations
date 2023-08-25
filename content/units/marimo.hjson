@@ -1,0 +1,13 @@
+type: naval
+armor: 3
+drag: 0.13
+targetAir: true
+hitSize: 16
+health: 300
+speed: 0.98
+accel: 0.2
+rotateSpeed: 0.8
+trailX: 6
+trailScl: 1.2
+trailLength: 20
+rotateShooting: false
