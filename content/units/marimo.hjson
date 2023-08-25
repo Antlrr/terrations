@@ -12,7 +12,7 @@ trailLength: 20
 outlineColor: 363851FF
 buildSpeed: 0.9
 drawBuildBeam: false
-groundLayer: 29
+groundLayer: 29.5
 weapons: [
    {
    name: build-mount-weapon
