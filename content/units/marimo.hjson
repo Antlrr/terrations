@@ -7,14 +7,12 @@ health: 300
 speed: 0.98
 accel: 0.2
 rotateSpeed: 5.1
-trailX: 6
 trailScl: 1.2
 trailLength: 20
-rotateShooting: false
 outlineColor: 363851FF
 buildSpeed: 0.9
 drawBuildBeam: false
-drawLayer: 29
+groundLayer: 29
 weapons: [
    {
    name: build-mount-weapon
