@@ -14,7 +14,7 @@ rotateShooting: false
 canBoost: true
 boostMultiplier: 1.2
 outlineColor: 363851FF
-buildSpeed: 1.3
+buildSpeed: 0.9
 drawBuildBeam: false
 weapons: [
    {
