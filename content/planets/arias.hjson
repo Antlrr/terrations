@@ -72,14 +72,14 @@ mesh: [
     mag: 1
     //these control how the two colours behave on the mesh
     coct: 1
-    cper: 2
-    cscl: 0.5
-    cthresh: 2
+    cper: 1
+    cscl: 1
+    cthresh: 1
   }
   {
     type: NoiseMesh
     divisions: 6
-    radius: 0.945
+    radius: 0.2
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
