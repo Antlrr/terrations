@@ -121,21 +121,6 @@ mesh: [
     cscl: 1.8
     cthresh: 1
   }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 0.925
-    color1: a6896f
-    color2: d3ae8d
-    octaves: 4.6
-    persistence: 0.65
-    scale: 0.6
-    mag: 1
-    coct: 4
-    cper: 1
-    cscl: 1.8
-    cthresh: 1
-  }
 ]
 //mesh to use for drawing the clouds, essentially just a second mesh
 cloudMesh: [
