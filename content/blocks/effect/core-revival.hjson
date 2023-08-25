@@ -7,6 +7,7 @@ unitCapModifier: 8
 researchCostMultiplier: 0.06
 unitType: terration-marimo
 solid: false
+placeableLiquid: true
 requirements: [
    {
    item: 1crystalite
