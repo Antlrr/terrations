@@ -1,0 +1,8 @@
+type: Floor
+speedMultiplier: 0.2
+variants: 0
+isLiquid: true
+albedo: 0.9
+cacheLayer: water
+liquidDrop: water
+drownTime: 200
