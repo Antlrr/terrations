@@ -11,3 +11,5 @@ trailX: 6
 trailScl: 1.2
 trailLength: 20
 rotateShooting: false
+canBoost: true
+boostMultiplier: 0.2
