@@ -32,7 +32,7 @@ iconColor: FFF698FF
 //radius from the planet's "surface" that the atmosphere blur begins
 atmosphereRadIn: 0
 //radius where it fades away - this can have visual issues if above 0.25
-atmosphereRadOut: 0.20
+atmosphereRadOut: 0
 //colour of the atmosphere
 atmosphereColor: C2FFF9FF
 //orbit radius, measured in units i do not know
@@ -61,7 +61,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 1
+    radius: 0.05
     //first colour to use 
     color1: A2EAF2FF
     //second
@@ -80,7 +80,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 5
-    radius: 1.03
+    radius: 0.12
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
