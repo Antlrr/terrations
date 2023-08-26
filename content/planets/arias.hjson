@@ -85,7 +85,7 @@ mesh: [
     color2: 80cb71
     octaves: 4.6
     persistence: 0.9
-    scale: 0.7
+    scale: 1
     mag: 1
     coct: 1
     cper: 2
@@ -100,7 +100,7 @@ mesh: [
     color2: 7a7a7a
     octaves: 4.6
     persistence: 0.9
-    scale: 0.7
+    scale: 2
     mag: 2.2
     coct: 1
     cper: 1
