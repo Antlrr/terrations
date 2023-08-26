@@ -61,7 +61,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 0.05
+    radius: 1.05
     //first colour to use 
     color1: A2EAF2FF
     //second
@@ -80,7 +80,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 5
-    radius: 0.12
+    radius: 1.12
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
@@ -101,7 +101,7 @@ cloudMesh: [
     speed: 3
     divisions: 6
     //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
-    radius: 0.1
+    radius: 1.40
     //cloud colour
     color: FFFFF2FF
     //more explodey values, they're even more sensitive here
