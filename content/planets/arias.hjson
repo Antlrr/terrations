@@ -74,7 +74,7 @@ mesh: [
     //these control how the two colours behave on the mesh
     coct: 1
     cper: 1
-    cscl: 1
+    cscl: 0.5
     cthresh: 1
   }
   {
@@ -88,8 +88,8 @@ mesh: [
     scale: 0.7
     mag: 1
     coct: 1
-    cper: 1
-    cscl: 1
+    cper: 2
+    cscl: 2
     cthresh: 1
   }
   {
