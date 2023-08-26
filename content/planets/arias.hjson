@@ -79,8 +79,8 @@ mesh: [
   }
   {
     type: NoiseMesh
-    divisions: 6
-    radius: 0.2
+    divisions: 5
+    radius: 1.2
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
