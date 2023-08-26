@@ -61,7 +61,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 1.05
+    radius: 1
     //first colour to use 
     color1: A2EAF2FF
     //second
@@ -80,7 +80,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 5
-    radius: 1.12
+    radius: 1.06
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
