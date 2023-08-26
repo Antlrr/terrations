@@ -20,7 +20,7 @@ generator: {
   fper: 0.4
 }
 //sector count - larger numbers mean exponentially more sectors, may crash above 4
-sectorSize: 1.9
+sectorSize: 2.4
 //terrain generation seed the planet uses for its sectors
 sectorSeed: -4
 //sector to start on - probably make this a preset sector
@@ -32,7 +32,7 @@ iconColor: FFF698FF
 //radius from the planet's "surface" that the atmosphere blur begins
 atmosphereRadIn: 0
 //radius where it fades away - this can have visual issues if above 0.25
-atmosphereRadOut: 0.1
+atmosphereRadOut: 0
 //colour of the atmosphere
 atmosphereColor: C2FFF9FF
 //orbit radius, measured in units i do not know
@@ -50,6 +50,7 @@ accessible: true
 allowLaunchToNumbered: false
 visible: true
 alwaysUnlocked: true
+bloom: false
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
 mesh: [
