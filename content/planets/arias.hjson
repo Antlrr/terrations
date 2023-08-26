@@ -20,7 +20,7 @@ generator: {
   fper: 0.4
 }
 //sector count - larger numbers mean exponentially more sectors, may crash above 4
-sectorSize: 1.8
+sectorSize: 1.9
 //terrain generation seed the planet uses for its sectors
 sectorSeed: -4
 //sector to start on - probably make this a preset sector
@@ -88,7 +88,7 @@ mesh: [
     mag: 1
     coct: 1
     cper: 1
-    cscl: 1.8
+    cscl: 1
     cthresh: 1
   }
   {
@@ -103,7 +103,7 @@ mesh: [
     mag: 2.2
     coct: 1
     cper: 1
-    cscl: 1.8
+    cscl: 1
     cthresh: 1
   }
 ]
