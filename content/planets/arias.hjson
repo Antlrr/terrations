@@ -68,7 +68,7 @@ mesh: [
     color2: B19161FF
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
-    persistence: 0.01
+    persistence: 0.21
     scale: 0.01
     mag: 1
     //these control how the two colours behave on the mesh
