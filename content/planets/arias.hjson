@@ -65,7 +65,7 @@ mesh: [
     //first colour to use 
     color1: A2EAF2FF
     //second
-    color2: B19161FF
+    color2: A2EAF2FF
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
     persistence: 0.21
@@ -84,27 +84,12 @@ mesh: [
     color1: 6aa95e
     color2: 80cb71
     octaves: 4.6
-    persistence: 0.9
+    persistence: 0.99
     scale: 1
     mag: 1
     coct: 1
     cper: 2
     cscl: 2
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 1.01
-    color1: 7a7a7a
-    color2: 7a7a7a
-    octaves: 4.6
-    persistence: 0.9
-    scale: 2
-    mag: 2.2
-    coct: 1
-    cper: 1
-    cscl: 1
     cthresh: 1
   }
 ]
