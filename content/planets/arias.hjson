@@ -32,7 +32,7 @@ iconColor: FFF698FF
 //radius from the planet's "surface" that the atmosphere blur begins
 atmosphereRadIn: 0
 //radius where it fades away - this can have visual issues if above 0.25
-atmosphereRadOut: 0
+atmosphereRadOut: 0.20
 //colour of the atmosphere
 atmosphereColor: C2FFF9FF
 //orbit radius, measured in units i do not know
@@ -95,7 +95,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 0.83
+    radius: 1.2
     color1: 7a7a7a
     color2: 7a7a7a
     octaves: 4.6
