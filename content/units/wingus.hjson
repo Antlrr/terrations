@@ -1,6 +1,6 @@
 flying: true
 speed: 3.5
-rotateSpeed: 2
+rotateSpeed: 7
 health: 100
 lowAltitude: true
 outlineColor: 363851FF
