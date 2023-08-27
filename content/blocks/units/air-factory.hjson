@@ -35,6 +35,7 @@ plans: [
        amount: 10
        }
      ]
+     time: 720
    }
  ]
 category: units
