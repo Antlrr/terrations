@@ -1,0 +1,4 @@
+flying: true
+speed: 3.5
+health: 100
+lowAltitude: true
