@@ -47,7 +47,7 @@ abilities: [
    cooldown: 360
    rotation: 45
    regen: 0.6
-   sides: 4
+   sides: 24
    }
    {
    type: EnergyFieldAbility
