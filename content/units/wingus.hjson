@@ -2,5 +2,30 @@ flying: true
 speed: 3.5
 rotateSpeed: 7
 health: 100
-lowAltitude: true
 outlineColor: 363851FF
+engineSize: 0
+weapons: [
+   {
+   name: engine
+   x: 0
+   y: -2
+   mirror: false
+   alternate: false
+   top: true
+   display: false
+   rotate: false
+   baseRotation: 180
+   shootSound: none
+   alwaysShooting: true
+   alwaysContinuous: true
+   continuous: true
+   parentizeEffects: true
+   bullet: {
+      type: "ContinuousFlameBulletType
+      colors: [9681fb50, 9681fb, bf92f9, ffffff]
+      damage: 4
+      layer: 110
+      length: 3
+      }
+   }
+]
