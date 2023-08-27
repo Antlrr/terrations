@@ -24,7 +24,7 @@ plans: [
      time: 2100
    }
    {
-    unit: terration-wingus
+    unit: wingus
     requirements: [
        {
        item: silicon
