@@ -26,6 +26,8 @@ weapons: [
       damage: 4
       layer: 110
       length: 3
+      width: 1.2
+      flareWidth: 0
       }
    }
 ]
