@@ -31,7 +31,7 @@ plans: [
        amount: 20
        }
        {
-       item: 1tenite
+       item: graphite
        amount: 10
        }
      ]
