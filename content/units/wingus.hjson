@@ -22,7 +22,7 @@ weapons: [
    parentizeEffects: true
    bullet: {
       type: ContinuousFlameBulletType
-      colors: [9681fb50, 9681fb, bf92f9, ffffff]
+      colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
       damage: 4
       layer: 110
       length: 4
