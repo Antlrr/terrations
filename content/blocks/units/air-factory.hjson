@@ -24,18 +24,14 @@ plans: [
      time: 2100
    }
    {
-    unit: mace
+    unit: terration-wingus
     requirements: [
        {
        item: silicon
        amount: 20
        }
        {
-       item: copper
-       amount: 20
-       }
-       {
-       item: graphite
+       item: 1tenite
        amount: 10
        }
      ]
