@@ -4,6 +4,8 @@ rotateSpeed: 7
 health: 100
 outlineColor: 363851FF
 engineSize: 0
+accel: 0.3
+drag: 0.9
 weapons: [
    {
    name: engine
