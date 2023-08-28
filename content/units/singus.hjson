@@ -36,8 +36,8 @@ weapons: [
       type: BasicBulletType
       keepVelocity: false
       drag: 0.04
-      width: 10
-      height: 10
+      width: 1.4
+      height: 1.4
       shrinkX: 0
       shrinkY: 0
       sprite: circle
