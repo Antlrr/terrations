@@ -50,7 +50,32 @@ weapons: [
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
       despawnEffect: none
-      hitEffect: none
+      hitEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 2
+            colorTo: FFBDEEFF
+            lifetime: 20
+            }
+            {
+            type: ParticleEffect
+            particles: 6
+            length: -8
+            baseLength: 0
+            lifetime: 24
+            interp: pow5Out
+            sizeInterp: pow10In
+            lightColor: FFBDEEFF
+            colorFrom: FFBDEE95
+            colorTo: FFBDEE8A
+            sizeFrom: 1.3
+            sizeTo: 0
+               }
+            ]
+         }
       }
    }
 ]
