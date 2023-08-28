@@ -1,0 +1,48 @@
+type: missile
+controller: MissileAI
+deathSound: mineDeploy
+lowAltitude: false
+speed: 6
+rotateSpeed: 3.6
+lifetime: 30
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+targetable: false
+hittable: false
+physics: false
+useUnitCap: false
+createWreck: false
+createScorch: false
+flying: true
+hidden: true
+health: 50
+hitSize: 8
+drawCell: false
+maxRange: 15
+trailColor: FFBDEEFF
+trailLength: 5
+loopSound: pulse
+loopSoundVolume: 2
+drawBody: false
+engineSize: 0
+drag: 0.04
+weapons: [
+  {
+  x: 0
+  y: 0
+  shootSound: bigshot
+  shootOnDeath: false
+  shootCone: 360
+  mirror: false 
+  reload: 1
+  shootY: 0
+  bullet: {
+      type: ExplosionBulletType
+      damage: 1
+      splashDamage: 10
+      splashDamageRadius: 10
+      killShooter: true
+      }
+   }
+]
