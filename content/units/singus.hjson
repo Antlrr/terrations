@@ -35,9 +35,20 @@ weapons: [
    bullet: {      
       type: BasicBulletType
       keepVelocity: false
+      lifetime: 60
+      homingPower: 0.04
+      width: 3.7
+      height: 3.7
+      shrinkX: 0
+      shrinkY: 0
+      sprite: circle
+      trailLength: 10
+      trailWidth: 2
+      trailColor: FFBDEEFF
+      backColor: FFBDEEFF
+      frontColor: FFBDEEFF
       despawnEffect: none
       hitEffect: none
-      spawnUnit: terration-hv-missile
       }
    }
 ]
