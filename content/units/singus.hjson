@@ -37,7 +37,7 @@ weapons: [
       keepVelocity: false
       drag: 0.03
       width: 3.5
-      height: 2\3.5
+      height: 3.5
       shrinkX: 0
       shrinkY: 0
       sprite: circle
@@ -48,7 +48,7 @@ weapons: [
       frontColor: FFBDEEFF
       despawnEffect: none
       hitEffect: none
-      despawnUnit: crawler
+      despawnUnit: terration-singus
       }
    }
 ]
