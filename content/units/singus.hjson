@@ -35,16 +35,17 @@ weapons: [
    bullet: {      
       type: BasicBulletType
       keepVelocity: false
-      lifetime: 40
-      speed: 3
+      lifetime: 35
+      speed: 4
+      damage: 15
       homingPower: 0.04
-      width: 3.7
-      height: 3.7
+      width: 2.7
+      height: 2.7
       shrinkX: 0
       shrinkY: 0
       sprite: circle
       trailLength: 10
-      trailWidth: 2
+      trailWidth: 1.35
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
