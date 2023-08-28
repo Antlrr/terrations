@@ -28,7 +28,7 @@ weapons: [
    rotateSpeed: 2.8
    reload: 55
    inaccuracy: 35
-   shootSound: blaster
+   shootSound: malignShoot
    shoot: {
       shots: 2
    }
