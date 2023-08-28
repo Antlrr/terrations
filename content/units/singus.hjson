@@ -36,8 +36,11 @@ weapons: [
       type: BasicBulletType
       keepVelocity: false
       drag: 0.04
+      shrinkX: 0
+      shrinkY: 0
+      sprite: circle
       trailLength: 10
-      trailWidth: 1
+      trailWidth: 1.4
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
