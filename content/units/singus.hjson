@@ -42,7 +42,7 @@ weapons: [
       shrinkY: 0
       sprite: circle
       trailLength: 10
-      trailWidth: 1.4
+      trailWidth: 1.35
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
