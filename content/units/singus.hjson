@@ -35,7 +35,8 @@ weapons: [
    bullet: {      
       type: BasicBulletType
       keepVelocity: false
-      lifetime: 60
+      lifetime: 40
+      speed: 3
       homingPower: 0.04
       width: 3.7
       height: 3.7
