@@ -56,9 +56,9 @@ weapons: [
             {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 2
+            sizeTo: 5
             colorTo: FFBDEEFF
-            lifetime: 20
+            lifetime: 26
             }
             {
             type: ParticleEffect
