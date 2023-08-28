@@ -5,6 +5,7 @@ hitSize: 12
 health: 600
 armor: 5
 treadPullOffset: 3
+rotateSpeed: 3.5
 treadRects: [
    {
    x: 7
