@@ -7,6 +7,7 @@ armor: 5
 treadPullOffset: 3
 rotateSpeed: 3.5
 itemCapacity: 0
+outlineColor: 363851FF
 treadRects: [
    {
    x: 7
@@ -24,6 +25,12 @@ weapons: [
    rotate: true
    mirror: false
    rotateSpeed: 2.8
+   reload: 30
+   bullet: {
+      type: BasicBulletType
+      drag: 0.04
+      trailLength: 3 
+      }
    }
 ]
    
