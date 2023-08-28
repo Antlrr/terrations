@@ -2,7 +2,7 @@ type: missile
 controller: MissileAI
 deathSound: bigshot
 lowAltitude: false
-speed: 6
+speed: 4
 rotateSpeed: 3.6
 lifetime: 30
 isEnemy: false
