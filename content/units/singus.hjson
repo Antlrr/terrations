@@ -25,7 +25,7 @@ weapons: [
    rotate: true
    mirror: false
    rotateSpeed: 2.8
-   reload: 30
+   reload: 55
    inaccuracy: 20
    shoot: {
       shots: 2
