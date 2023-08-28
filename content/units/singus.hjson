@@ -28,16 +28,16 @@ weapons: [
    rotateSpeed: 2.8
    reload: 55
    inaccuracy: 20
+   shootSound: blaster
    shoot: {
       shots: 2
    }
    bullet: {
       type: BasicBulletType
-      shootSound: blaster
       keepVelocity: false
       drag: 0.04
-      trailLength: 4
-      trailWidth: 1.5
+      trailLength: 10
+      trailWidth: 1
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
