@@ -1,6 +1,6 @@
 type: missile
 controller: MissileAI
-deathSound: mineDeploy
+deathSound: bigshot
 lowAltitude: false
 speed: 6
 rotateSpeed: 3.6
@@ -26,7 +26,6 @@ loopSound: pulse
 loopSoundVolume: 2
 drawBody: false
 engineSize: 0
-drag: 0.04
 weapons: [
   {
   x: 0
