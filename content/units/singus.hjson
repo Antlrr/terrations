@@ -27,7 +27,7 @@ weapons: [
    mirror: false
    rotateSpeed: 2.8
    reload: 55
-   inaccuracy: 20
+   inaccuracy: 35
    shootSound: blaster
    shoot: {
       shots: 2
@@ -35,17 +35,20 @@ weapons: [
    bullet: {
       type: BasicBulletType
       keepVelocity: false
-      drag: 0.04
-      width: 2.5
-      height: 2.5
+      drag: 0.03
+      width: 3.5
+      height: 2\3.5
       shrinkX: 0
       shrinkY: 0
       sprite: circle
       trailLength: 10
-      trailWidth: 1.25
+      trailWidth: 2.25
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
+      despawnEffect: none
+      hitEffect: none
+      despawnUnit: terration-singus
       }
    }
 ]
