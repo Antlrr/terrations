@@ -48,7 +48,7 @@ weapons: [
       frontColor: FFBDEEFF
       despawnEffect: none
       hitEffect: none
-      despawnUnit: terration-singus
+      despawnUnit: terration-hv-missile
       }
    }
 ]
