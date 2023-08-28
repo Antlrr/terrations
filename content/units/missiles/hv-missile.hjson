@@ -1,7 +1,8 @@
 type: missile
 controller: MissileAI
-deathSound: bigshot
+deathSound: artillery
 lowAltitude: false
+deathExplosionEffect: none
 speed: 4
 rotateSpeed: 3.6
 lifetime: 30
@@ -30,7 +31,7 @@ weapons: [
   {
   x: 0
   y: 0
-  shootSound: bigshot
+  shootSound: none
   shootOnDeath: false
   shootCone: 360
   mirror: false 
