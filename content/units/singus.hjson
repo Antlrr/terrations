@@ -6,6 +6,7 @@ health: 600
 armor: 5
 treadPullOffset: 3
 rotateSpeed: 3.5
+itemCapacity: 0
 treadRects: [
    {
    x: 7
@@ -14,3 +15,15 @@ treadRects: [
    height: 51
    }
 ]
+weapons: [
+   {
+   name: singus-mount-weapon
+   layerOffset: 0.0001
+   x: 0
+   y: 0
+   rotate: true
+   mirror: false
+   rotateSpeed: 2.8
+   }
+]
+   
