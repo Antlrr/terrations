@@ -55,8 +55,8 @@ weapons: [
          effects: [
             {
             type: WaveEffect
-            sizeFrom: 5
-            sizeTo: 0
+            sizeFrom: 0
+            sizeTo: 5
             colorTo: FFBDEEFF
             lifetime: 24
             }
