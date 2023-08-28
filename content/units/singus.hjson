@@ -55,10 +55,10 @@ weapons: [
          effects: [
             {
             type: WaveEffect
-            sizeFrom: 0
-            sizeTo: 5
+            sizeFrom: 5
+            sizeTo: 0
             colorTo: FFBDEEFF
-            lifetime: 20
+            lifetime: 24
             }
             {
             type: ParticleEffect
