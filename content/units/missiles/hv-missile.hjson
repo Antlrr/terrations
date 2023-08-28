@@ -20,11 +20,10 @@ hidden: true
 health: 50
 hitSize: 8
 drawCell: false
-maxRange: 15
 trailColor: FFBDEEFF
-trailLength: 5
+trailLength: 10
 loopSound: pulse
-loopSoundVolume: 2
+loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
 weapons: [
