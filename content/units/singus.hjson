@@ -26,10 +26,16 @@ weapons: [
    mirror: false
    rotateSpeed: 2.8
    reload: 30
+   inaccuracy: 20
+   shoot: {
+      shots: 2
+   }
    bullet: {
       type: BasicBulletType
+      keepVelocity: false
       drag: 0.04
-      trailLength: 3 
+      trailLength: 3
+      trailWidth: 2
       }
    }
 ]
