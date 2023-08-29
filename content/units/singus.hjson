@@ -17,12 +17,12 @@ deathExplosionEffect: {
       length: -34
       baseLength: 0
       lifetime: 30
-      interp: pow5Out
+      interp: circleOut
       sizeInterp: pow10In
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
       colorTo: FFBDEEFF
-      sizeFrom: 3
+      sizeFrom: 2
       sizeTo: 0
       }
    ]
