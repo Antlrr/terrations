@@ -27,15 +27,15 @@ deathExplosionEffect: {
       }
       {
       type: WaveEffect
-      lifetime: 25
+      lifetime: 27
       interp: circleOut
       sizeInterp: pow10In
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
       colorTo: FFBDEEFF
-      strokeFrom: 1
+      strokeFrom: 2
       strokeTo: 0
-      sizeFrom: 20
+      sizeFrom: 40
       sizeTo: 0
       }
    ]
