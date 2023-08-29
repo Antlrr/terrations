@@ -13,16 +13,16 @@ deathExplosionEffect: {
    effects: [
       {
       type: ParticleEffect
-      particles: 14
+      particles: 7
       length: 34
-      baseLength: -34
+      baseLength: 0
       lifetime: 30
-      interp: circleOut
+      interp: pow10Out
       sizeInterp: pow10In
       lightColor: FFBDEEFF
-      colorFrom: FFBDEEFF
-      colorTo: FFBDEEFF
-      sizeFrom: 2
+      colorFrom: FFBDEE75
+      colorTo: FFBDEE75
+      sizeFrom: 5
       sizeTo: 0
       }
       {
