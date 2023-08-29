@@ -103,14 +103,14 @@ weapons: [
             type: ParticleEffect
             line: true
             particles: 6
-            length: -4
+            length: -5
             baseLength: 0
             lifetime: 24
-            interp: pow5In
+            interp: circleOut
             lightColor: FFBDEEFF
             colorFrom: FFBDEE95
             colorTo: FFBDEE8A
-            strokeFrom: 2
+            strokeFrom: 1
             sizeTo: 0
                }
             ]
