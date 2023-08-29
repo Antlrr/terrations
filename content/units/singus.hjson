@@ -28,7 +28,7 @@ weapons: [
    rotateSpeed: 2.8
    reload: 55
    inaccuracy: 35
-   shootSound: malignShoot
+   shootSound: bolt
    shoot: {
       shots: 2
    }
@@ -49,7 +49,32 @@ weapons: [
       trailColor: FFBDEEFF
       backColor: FFBDEEFF
       frontColor: FFBDEEFF
-      despawnEffect: none
+      despawnEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 5
+            colorTo: FFBDEEFF
+            lifetime: 24
+            }
+            {
+            type: ParticleEffect
+            particles: 6
+            length: -3
+            baseLength: 0
+            lifetime: 24
+            interp: pow5Out
+            sizeInterp: pow10In
+            lightColor: FFBDEEFF
+            colorFrom: FFBDEE95
+            colorTo: FFBDEE8A
+            sizeFrom: 2
+            sizeTo: 0
+               }
+            ]
+         }
       hitEffect: {
          type: MultiEffect
          effects: [
@@ -72,6 +97,20 @@ weapons: [
             colorFrom: FFBDEE95
             colorTo: FFBDEE8A
             sizeFrom: 2
+            sizeTo: 0
+            }
+            {
+            type: ParticleEffect
+            line: true
+            particles: 6
+            length: -4
+            baseLength: 0
+            lifetime: 24
+            interp: pow5In
+            lightColor: FFBDEEFF
+            colorFrom: FFBDEE95
+            colorTo: FFBDEE8A
+            strokeFrom: 2
             sizeTo: 0
                }
             ]
