@@ -20,8 +20,8 @@ deathExplosionEffect: {
       interp: circleOut
       sizeInterp: pow10In
       lightColor: FFBDEEFF
-      colorFrom: FFBDEE00
-      colorTo: FFBDEEFF
+      colorFrom: FFBDEEFF
+      colorTo: FFBDEE00
       sizeFrom: 2
       sizeTo: 0
       }
