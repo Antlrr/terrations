@@ -13,7 +13,7 @@ deathExplosionEffect: {
    effects: [
       {
       type: ParticleEffect
-      particles: 20
+      particles: 14
       length: -34
       baseLength: 0
       lifetime: 30
@@ -23,6 +23,19 @@ deathExplosionEffect: {
       colorFrom: FFBDEEFF
       colorTo: FFBDEEFF
       sizeFrom: 2
+      sizeTo: 0
+      }
+      {
+      type: WaveEffect
+      lifetime: 25
+      interp: circleOut
+      sizeInterp: pow10In
+      lightColor: FFBDEEFF
+      colorFrom: FFBDEEFF
+      colorTo: FFBDEEFF
+      strokeFrom: 1
+      strokeTo: 0
+      sizeFrom: 20
       sizeTo: 0
       }
    ]
