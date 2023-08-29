@@ -14,7 +14,7 @@ deathExplosionEffect: {
       {
       type: ParticleEffect
       particles: 14
-      length: 0
+      length: 34
       baseLength: 34
       lifetime: 30
       interp: circleOut
@@ -36,7 +36,7 @@ deathExplosionEffect: {
       strokeFrom: 2
       strokeTo: 0
       sizeFrom: 0
-      sizeTo: 40
+      sizeTo: 38
       }
    ]
 }
