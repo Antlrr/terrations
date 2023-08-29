@@ -35,8 +35,8 @@ deathExplosionEffect: {
       colorTo: FFBDEEFF
       strokeFrom: 2
       strokeTo: 0
-      sizeFrom: 40
-      sizeTo: 0
+      sizeFrom: 0
+      sizeTo: 40
       }
    ]
 }
