@@ -21,7 +21,7 @@ deathExplosionEffect: {
       sizeInterp: pow10In
       lightColor: FFBDEEFF
       colorFrom: FFBDEEFF
-      colorTo: FFBDEE00
+      colorTo: FFBDEEFF
       sizeFrom: 2
       sizeTo: 0
       }
