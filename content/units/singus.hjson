@@ -14,7 +14,7 @@ deathExplosionEffect: {
       {
       type: ParticleEffect
       particles: 7
-      length: 34
+      length: 20
       baseLength: 0
       lifetime: 30
       interp: pow10Out
