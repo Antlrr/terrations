@@ -110,7 +110,7 @@ weapons: [
             lightColor: FFBDEEFF
             colorFrom: FFBDEE95
             colorTo: FFBDEE8A
-            strokeFrom: 1
+            strokeFrom: 1.5
             sizeTo: 0
                }
             ]
