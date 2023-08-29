@@ -8,6 +8,20 @@ treadPullOffset: 3
 rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 363851FF
+deathExplosionEffect: {
+   type: ParticleEffect
+   particles: 7
+   length: -4
+   baseLength: 0
+   lifetime: 20
+   interp: pow5Out
+   sizeInterp: pow10In
+   lightColor: FFBDEEFF
+   colorFrom: FFBDEE95
+   colorTo: FFBDEE8A
+   sizeFrom: 5
+   sizeTo: 0
+   }
 treadRects: [
    {
    x: 7
