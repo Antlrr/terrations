@@ -9,19 +9,24 @@ rotateSpeed: 3.5
 itemCapacity: 0
 outlineColor: 363851FF
 deathExplosionEffect: {
-   type: ParticleEffect
-   particles: 15
-   length: -6
-   baseLength: 0
-   lifetime: 20
-   interp: pow5Out
-   sizeInterp: pow10In
-   lightColor: FFBDEEFF
-   colorFrom: FFBDEE95
-   colorTo: FFBDEE8A
-   sizeFrom: 3
-   sizeTo: 0
-   }
+   type: MultiEffect
+   effects: [
+      {
+      type: ParticleEffect
+      particles: 14
+      length: -25
+      baseLength: 0
+      lifetime: 30
+      interp: pow5Out
+      sizeInterp: pow10In
+      lightColor: FFBDEEFF
+      colorFrom: FFBDEE95
+      colorTo: FFBDEE8A
+      sizeFrom: 3
+      sizeTo: 0
+      }
+   ]
+}
 treadRects: [
    {
    x: 7
