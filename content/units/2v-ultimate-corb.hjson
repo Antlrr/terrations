@@ -49,7 +49,8 @@ weapons: [
         {
           type: HaloPart
           tri: true
-          radius: 30
+          haloRadius: 40
+          radius: 20
           triLength: 20
           color: BDFFC4FF
           layer: 110
