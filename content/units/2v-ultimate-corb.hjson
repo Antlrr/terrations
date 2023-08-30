@@ -78,9 +78,9 @@ weapons: [
       length: 0
       width: 0
       lifetime: 260
-      flareColor: BDFFC4FF
-      flareWidth: 5
-      flareLength: 70
+      flareColor: BDFFC4
+      flareWidth: 4
+      flareLength: 60
       }
    }
 ]
