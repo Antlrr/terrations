@@ -33,6 +33,49 @@ weapons: [
    reload: 690
    shootSound: explosionbig
    display: false
+   parts: [
+        {
+           type: shapePart
+           hollow: true
+           circle: true
+           layer: 110
+           color: BDFFC4FF
+           stroke: 0
+           strokeTo: 1
+           radiusTo: 3
+           radius: 40
+        }
+        {
+          type: HaloPart
+          radius: 40
+          tri: true
+          layer: 110
+          color: BDFFC4FF
+          haloRotateSpeed: -1
+          haloRadius: 3
+          haloRadiusTo": 3
+          stroke: 0
+          strokeTo: 2
+          shapes: 4
+          triLengthTo: 3
+          triLength: 0
+        }
+        {
+          type: HaloPart
+          radius: 40
+          tri: true
+          layer: 110
+          color: BDFFC4FF
+          haloRotateSpeed: 1
+          haloRadius: 3
+          haloRadiusTo: 3
+          stroke: 0
+          strokeTo: 2
+          shapes: 4
+          triLengthTo: 3
+          triLength: 0
+        }
+      ]
    bullet: {
       type: LaserBulletType
       length: 520
