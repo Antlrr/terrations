@@ -27,7 +27,7 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 460
+   shootStatusDuration: 100
    x: 0
    y: 0
    reload: 690
