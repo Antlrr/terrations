@@ -54,6 +54,7 @@ weapons: [
       length: 520
       width: 10
       lifetime: 260
+      sideWith: 0
       colors: [
          84F491FF
          BDFFC4FF
