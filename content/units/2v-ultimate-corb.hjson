@@ -47,18 +47,10 @@ weapons: [
         }
         {
           type: HaloPart
-          radius: 0
           tri: true
-          layer: 110
+          radius: 40
+          triLength: 6
           color: BDFFC4FF
-          haloRotateSpeed: 1
-          haloRadius: 0
-          haloRadiusTo: 5
-          stroke: 0
-          strokeTo: 10
-          shapes: 2
-          triLengthTo: 13
-          triLength: 0
         }
       ]
    bullet: {
