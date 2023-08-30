@@ -27,7 +27,7 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 100
+   shootStatusDuration: 120
    x: 0
    y: 0
    reload: 690
@@ -37,7 +37,7 @@ weapons: [
       type: LaserBulletType
       length: 520
       width: 3
-      lifetime: 80
+      lifetime: 100
       sideWidth: 0
       sideLength: 0
       }
@@ -46,7 +46,7 @@ weapons: [
    rotate: false
    x: 0
    y: 0
-   reload: 350
+   reload: 370
    continuous: true
    shootSound: laserbig
    chargeSound: lasercharge2
@@ -57,7 +57,7 @@ weapons: [
       type: ContinuousLaserBulletType
       length: 520
       width: 10
-      lifetime: 260
+      lifetime: 280
       damage: 50
       colors: [
          84F491FF
@@ -70,7 +70,7 @@ weapons: [
    rotate: false
    x: 0
    y: 0
-   reload: 350
+   reload: 370
    continuous: true
    shootSound: none
    display: false
