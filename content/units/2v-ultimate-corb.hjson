@@ -26,6 +26,8 @@ faceTarget: true
 weapons: [
    {
    rotate: false
+   shootStatus: unmoving
+   shootStatusDuration: 560
    x: 0
    y: 0
    reload: 560
