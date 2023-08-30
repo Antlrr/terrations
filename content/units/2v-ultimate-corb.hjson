@@ -42,22 +42,22 @@ weapons: [
            color: BDFFC4FF
            stroke: 0
            strokeTo: 1
-           radiusTo: 20
+           radiusTo: 16
            radius: 40
         }
         {
           type: HaloPart
-          radius: 40
+          radius: 0
           tri: true
           layer: 110
           color: BDFFC4FF
           haloRotateSpeed: 10
           haloRadius: 3
-          haloRadiusTo: 20
+          haloRadiusTo: 16
           stroke: 0
-          strokeTo: 20
+          strokeTo: 6
           shapes: 2
-          triLengthTo: 3
+          triLengthTo: 6
           triLength: 0
         }
       ]
