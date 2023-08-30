@@ -72,8 +72,8 @@ weapons: [
    shootSound: none
    bullet: {
       type: ContinuousFlameBulletType
-      length: 0
-      width: 0
+      length: 1
+      width: 1
       lifetime: 400
       flareColor: BDFFC4FF
       flareWidth: 5
