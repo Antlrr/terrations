@@ -49,8 +49,9 @@ weapons: [
           type: HaloPart
           tri: true
           radius: 40
-          triLength: 6
+          triLength: 5
           color: BDFFC4FF
+          layer: 110
         }
       ]
    bullet: {
