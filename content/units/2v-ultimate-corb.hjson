@@ -28,9 +28,10 @@ weapons: [
    rotate: false
    x: 0
    y: 0
+   reload: 120
    bullet: {
       type: LaserBulletType
-      length: 30
+      length: 300
       width: 1
       lifetime: 60
       }
@@ -39,12 +40,13 @@ weapons: [
    rotate: false
    x: 0
    y: 0
+   reload: 120
    shoot: {
      shotDelay: 60
    }
    bullet: {
       type: LaserBulletType
-      length: 30
+      length: 300
       width: 1
       lifetime: 60
       }
