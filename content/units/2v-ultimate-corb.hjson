@@ -37,6 +37,7 @@ weapons: [
       length: 520
       width: 1
       lifetime: 80
+      lightColor: FF0000
       colors: [
          FF0000
          FF0000
