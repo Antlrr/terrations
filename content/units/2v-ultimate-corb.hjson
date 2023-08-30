@@ -38,11 +38,10 @@ weapons: [
       width: 1
       lifetime: 80
       colors: [
-         FF00004C
-         FF00004C
-         FF00004C
-         FF00004C
-         FF00004C
+         FF0000
+         FF0000
+         FF0000
+         FF0000
          ]
       }
    }
