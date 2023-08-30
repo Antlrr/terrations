@@ -1,10 +1,10 @@
 type: legs
-health: 20
-armor: 1
+health: 25000
+armor: 12
 hitSize: 8
-speed: 0.09
+speed: 0.12
 drag: 0.3
-rotateSpeed: 2.8
+rotateSpeed: 0.8
 groundLayer: 75
 targetAir: false
 legCount: 4
