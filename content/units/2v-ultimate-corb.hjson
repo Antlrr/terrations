@@ -37,6 +37,8 @@ weapons: [
       length: 520
       width: 3
       lifetime: 80
+      sideWidth: 0
+      sideLength: 0
       }
    }
    {
@@ -54,8 +56,6 @@ weapons: [
       length: 520
       width: 10
       lifetime: 260
-      sideWidth: 0
-      sideLength: 0
       colors: [
          84F491FF
          BDFFC4FF
@@ -77,10 +77,10 @@ weapons: [
       type: ContinuousFlameBulletType
       length: 520
       width: 10
-      lifetime: 260
+      lifetime: 320
       flareColor: BDFFC4FF
-      flareWidth: 4
-      flareLength: 60
+      flareWidth: 5
+      flareLength: 70
       rotateFlare: false
       }
    }
