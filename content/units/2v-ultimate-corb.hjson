@@ -53,11 +53,11 @@ weapons: [
           color: BDFFC4FF
           haloRotateSpeed: 1
           haloRadius: 0
-          haloRadiusTo: 20
+          haloRadiusTo: 5
           stroke: 0
           strokeTo: 10
           shapes: 2
-          triLengthTo: 10
+          triLengthTo: 13
           triLength: 0
         }
       ]
