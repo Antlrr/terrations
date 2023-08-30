@@ -57,7 +57,7 @@ weapons: [
           stroke: 0
           strokeTo: 6
           shapes: 2
-          triLengthTo: 6
+          triLengthTo: 10
           triLength: 0
         }
       ]
