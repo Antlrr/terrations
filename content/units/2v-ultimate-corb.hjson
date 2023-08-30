@@ -33,7 +33,7 @@ weapons: [
       type: LaserBulletType
       length: 300
       width: 1
-      lifetime: 60
+      lifetime: 30
       }
    }
    {
@@ -42,12 +42,12 @@ weapons: [
    y: 0
    reload: 120
    shoot: {
-     shotDelay: 60
+     shotDelay: 30
    }
    bullet: {
       type: LaserBulletType
       length: 300
-      width: 1
+      width: 10
       lifetime: 60
       }
    }
