@@ -42,7 +42,7 @@ weapons: [
            color: BDFFC4FF
            stroke: 0
            strokeTo: 1
-           radiusTo: 3
+           radiusTo: 20
            radius: 40
         }
         {
@@ -53,9 +53,9 @@ weapons: [
           color: BDFFC4FF
           haloRotateSpeed: 10
           haloRadius: 3
-          haloRadiusTo: 3
+          haloRadiusTo: 20
           stroke: 0
-          strokeTo: 10
+          strokeTo: 20
           shapes: 2
           triLengthTo: 3
           triLength: 0
