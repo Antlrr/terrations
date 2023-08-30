@@ -44,14 +44,16 @@ weapons: [
            strokeTo: 1
            radiusTo: 16
            radius: 40
+           recoil: 0
         }
         {
           type: HaloPart
           tri: true
           radius: 30
-          triLength: 10
+          triLength: 20
           color: BDFFC4FF
           layer: 110
+          recoil: 0
         }
       ]
    bullet: {
