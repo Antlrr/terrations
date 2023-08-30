@@ -54,7 +54,8 @@ weapons: [
       length: 520
       width: 10
       lifetime: 260
-      sideWith: 0
+      sideWidth: 0
+      sideLength: 0
       colors: [
          84F491FF
          BDFFC4FF
@@ -77,11 +78,10 @@ weapons: [
       length: 520
       width: 10
       lifetime: 260
-      colors: [
-         84F491FF
-         BDFFC4FF
-         FFFFFF
-         ]
+      flareColor: BDFFC4FF
+      flareWidth: 4
+      flareLength: 60
+      rotateFlare: false
       }
    }
 ]
