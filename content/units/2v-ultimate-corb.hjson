@@ -42,7 +42,7 @@ weapons: [
    y: 0
    reload: 180
    shoot: {
-     shotDelay: 120
+     firstShotDelay: 120
    }
    bullet: {
       type: LaserBulletType
