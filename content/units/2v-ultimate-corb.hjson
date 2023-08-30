@@ -70,11 +70,14 @@ weapons: [
    reload: 350
    continuous: true
    shootSound: none
+   shoot: {
+     firstShotDelay: 80
+   }
    bullet: {
       type: ContinuousFlameBulletType
-      length: 40
-      width: 10
-      lifetime: 400
+      length: 0
+      width: 0
+      lifetime: 260
       flareColor: BDFFC4FF
       flareWidth: 5
       flareLength: 70
