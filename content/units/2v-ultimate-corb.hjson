@@ -75,8 +75,8 @@ weapons: [
    }
    bullet: {
       type: ContinuousFlameBulletType
-      length: 0
-      width: 0
+      length: 520
+      width: 10
       lifetime: 260
       flareColor: BDFFC4
       flareWidth: 5
