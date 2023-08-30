@@ -38,6 +38,11 @@ weapons: [
       length: 520
       width: 1
       lifetime: 80
+      colors: [
+         FF00004C
+         FF00004C
+         FF00004C
+         ]
       }
    }
    {
@@ -56,6 +61,11 @@ weapons: [
       length: 520
       width: 10
       lifetime: 260
+      colors: [
+         84F491FF
+         BDFFC4FF
+         FFFFFF
+         ]
       }
    }
 ]
