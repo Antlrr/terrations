@@ -49,9 +49,11 @@ weapons: [
         {
           type: HaloPart
           tri: true
-          haloRadius: 40
-          radius: 20
-          triLength: 20
+          haloRadius: 10
+          haloRotateSpeed: 0.4
+          radius: 10
+          triLength: 0
+          triLengthTo: 10
           color: BDFFC4FF
           layer: 110
           recoil: 0
