@@ -51,13 +51,13 @@ weapons: [
           tri: true
           layer: 110
           color: BDFFC4FF
-          haloRotateSpeed: 1
+          haloRotateSpeed: 10
           haloRadius: 3
           haloRadiusTo: 3
           stroke: 0
-          strokeTo: 6
-          shapes: 4
-          triLengthTo: 5
+          strokeTo: 10
+          shapes: 2
+          triLengthTo: 3
           triLength: 0
         }
       ]
