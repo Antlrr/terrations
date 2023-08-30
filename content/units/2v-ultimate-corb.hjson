@@ -29,11 +29,12 @@ weapons: [
    x: 0
    y: 0
    reload: 180
+   shootSound: plasmadrop
    bullet: {
       type: LaserBulletType
-      length: 300
+      length: 520
       width: 1
-      lifetime: 120
+      lifetime: 80
       }
    }
    {
@@ -41,12 +42,14 @@ weapons: [
    x: 0
    y: 0
    reload: 180
+   continuous: true
+   shootSound: laserbig
    shoot: {
-     firstShotDelay: 120
+     firstShotDelay: 80
    }
    bullet: {
-      type: LaserBulletType
-      length: 300
+      type: ContinuousLaserBulletType
+      length: 520
       width: 10
       lifetime: 60
       }
