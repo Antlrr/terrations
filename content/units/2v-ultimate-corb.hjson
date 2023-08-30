@@ -31,7 +31,7 @@ weapons: [
    x: 0
    y: 0
    reload: 690
-   shootSound: plasmadrop
+   shootSound: terration-epic-charge
    display: false
    bullet: {
       type: LaserBulletType
