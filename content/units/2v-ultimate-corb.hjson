@@ -36,13 +36,7 @@ weapons: [
       type: LaserBulletType
       length: 520
       width: 3
-      lifetime: 350
-      lightColor: FF0000
-      colors: [
-         FFFFFF
-         FF0000
-         FF0000
-         ]
+      lifetime: 80
       }
    }
    {
