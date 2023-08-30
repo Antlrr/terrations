@@ -31,7 +31,7 @@ weapons: [
    x: 0
    y: 0
    reload: 690
-   shootSoundVolume: 3
+   shootSoundVol: 3
    shootSound: plasmadrop
    bullet: {
       type: LaserBulletType
@@ -46,7 +46,7 @@ weapons: [
    y: 0
    reload: 350
    continuous: true
-   shootSoundVolume: 3
+   shootSoundVol: 3
    shootSound: laserbig
    shoot: {
      firstShotDelay: 80
