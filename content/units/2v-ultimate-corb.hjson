@@ -43,7 +43,7 @@ weapons: [
            stroke: 0
            strokeTo: 1
            radiusTo: 10
-           radius: 40
+           radius: 0
            recoil: 0
         }
         {
@@ -53,6 +53,18 @@ weapons: [
           haloRotateSpeed: 0.4
           radius: 0
           radiusTo: 6
+          triLength: 0
+          triLengthTo: 10
+          color: BDFFC4FF
+          layer: 110
+          recoil: 0
+        }
+        {
+          type: HaloPart
+          haloRadius: 10
+          haloRotateSpeed: 0.4
+          radius: 0
+          radiusTo: 10
           triLength: 0
           triLengthTo: 10
           color: BDFFC4FF
