@@ -1,0 +1,52 @@
+type: legs
+health: 20
+armor: 1
+hitSize: 8
+speed: 0.09
+drag: 0.3
+rotateSpeed: 2.8
+groundLayer: 75
+targetAir: false
+legCount: 4
+legLength: 10
+legContinuousMove: true
+legBaseOffset: 0
+legMaxLength: 1.8
+legMinLength: 1.2
+legLengthScl: 1.4
+legForwardScl: 1.2
+legGroupSize: 2
+rippleScale: 0.6
+legMoveSpace: 1.6
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.2
+faceTarget: true
+weapons: [
+   {
+   rotate: false
+   x: 0
+   y: 0
+   bullet: {
+      type: LaserBulletType
+      length: 30
+      width: 1
+      lifetime: 60
+      }
+   }
+   {
+   rotate: false
+   x: 0
+   y: 0
+   shoot: {
+     shotDelay: 60
+   }
+   bullet: {
+      type: LaserBulletType
+      length: 30
+      width: 1
+      lifetime: 60
+      }
+   }
+]
