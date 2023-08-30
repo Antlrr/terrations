@@ -62,4 +62,26 @@ weapons: [
          ]
       }
    }
+   {
+   rotate: false
+   x: 0
+   y: 0
+   reload: 350
+   continuous: true
+   shootSound: none
+   shoot: {
+     firstShotDelay: 80
+   }
+   bullet: {
+      type: ContinuousFlameBulletType
+      length: 520
+      width: 10
+      lifetime: 260
+      colors: [
+         84F491FF
+         BDFFC4FF
+         FFFFFF
+         ]
+      }
+   }
 ]
