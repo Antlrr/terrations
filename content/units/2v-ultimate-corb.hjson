@@ -28,7 +28,7 @@ weapons: [
    rotate: false
    x: 0
    y: 0
-   reload: 480
+   reload: 560
    shootSound: plasmadrop
    bullet: {
       type: LaserBulletType
