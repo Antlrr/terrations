@@ -35,7 +35,7 @@ weapons: [
    bullet: {
       type: LaserBulletType
       length: 520
-      width: 1
+      width: 3
       lifetime: 80
       lightColor: FF0000
       colors: [
