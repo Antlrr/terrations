@@ -80,6 +80,7 @@ weapons: [
       lifetime: 100
       sideWidth: 0
       sideLength: 0
+      coillides: false
       fragBullets: 1 
       fragRandomSpread: 0
       fragVelocityMax: 0
