@@ -70,23 +70,6 @@ weapons: [
    x: 0
    y: 0
    reload: 120
-   hitEffect: none
-   smokeEffect: none
-   despawnEffect: {
-      type: ParticleEffect
-      particles: 6
-      length: -8
-      baseLength: 0
-      lifetime: 100
-      interp: pow5Out
-      sizeInterp: pow10In
-      lightColor: BDFFC4FF
-      colorFrom: BDFFC4FF
-      colorTo: BDFFC4FF
-      sizeFrom: 4
-      sizeTo: 0
-      layer: 110
-      }
    bullet: {
       type: BulletType
       collides: false
@@ -94,6 +77,23 @@ weapons: [
       speed: 6
       lifetime: 80
       despawnUnit: crawler
+      hitEffect: none
+      smokeEffect: none
+      despawnEffect: {
+         type: ParticleEffect
+         particles: 6
+         length: -8
+         baseLength: 0
+         lifetime: 100
+         interp: pow5Out
+         sizeInterp: pow10In
+         lightColor: BDFFC4FF
+         colorFrom: BDFFC4FF
+         colorTo: BDFFC4FF
+         sizeFrom: 4
+         sizeTo: 0
+         layer: 110
+         }
       }
    }
 ]
