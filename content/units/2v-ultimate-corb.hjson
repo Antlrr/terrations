@@ -66,10 +66,10 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 10
+   shootStatusDuration: 0
    x: 0
    y: 0
-   reload: 60
+   reload: 1
    bullet: {
       type: BulletType
       speed: 10
