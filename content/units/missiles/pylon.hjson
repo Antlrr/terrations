@@ -30,7 +30,7 @@ engines: [
       x: -10
       y: 10
       radius: 3
-      rotation: 95
+      rotation: 100
     }
     {
       x: 10
@@ -42,12 +42,12 @@ engines: [
       x: -10
       y: -10
       radius: 3
-      rotation: 50
+      rotation: 35
     }
     {
       x: 10
       y: 10
       radius: 3
-      rotation: 90
+      rotation: -90
     }
   ]
