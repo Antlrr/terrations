@@ -26,22 +26,25 @@ loopSound: pulse
 loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
-weapons: [
-  {
-  x: 0
-  y: 0
-  shootSound: none
-  shootOnDeath: false
-  shootCone: 360
-  mirror: false 
-  reload: 1
-  shootY: 0
-  bullet: {
-      type: ExplosionBulletType
-      damage: 1
-      splashDamage: 10
-      splashDamageRadius: 10
-      killShooter: true
-      }
-   }
-]
+engines: [
+    {
+      x: -10
+      y: 0
+      radius: 3
+    }
+    {
+      x: 0
+      y: -10
+      radius: 3
+    }
+    {
+      x: -20
+      y: 0
+      radius: 3
+    }
+    {
+      x: 0
+      y: -20
+      radius: 3
+    }
+  ]
