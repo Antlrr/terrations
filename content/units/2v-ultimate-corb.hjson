@@ -98,7 +98,6 @@ weapons: [
       fragBullet: {
          type: RailBulletType
          length: 320
-         farthest: 320
          trailEffect: instTrail
          shootEffect: instShoot
          }
