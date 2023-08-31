@@ -3,9 +3,9 @@ controller: MissileAI
 deathSound: artillery
 lowAltitude: false
 deathExplosionEffect: none
-speed: 4
+speed: 0
 rotateSpeed: 3.6
-lifetime: 30
+lifetime: 120
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -20,7 +20,6 @@ hidden: true
 health: 50
 hitSize: 8
 drawCell: false
-trailColor: FFBDEEFF
 trailLength: 10
 loopSound: pulse
 loopSoundVolume: 0.5
@@ -29,22 +28,22 @@ engineSize: 0
 engines: [
     {
       x: -10
-      y: 0
+      y: 10
       radius: 3
     }
     {
-      x: 0
+      x: 10
       y: -10
       radius: 3
     }
     {
-      x: -20
-      y: 0
+      x: 10
+      y: 20
       radius: 3
     }
     {
-      x: 0
-      y: -20
+      x: 10
+      y: 20
       radius: 3
     }
   ]
