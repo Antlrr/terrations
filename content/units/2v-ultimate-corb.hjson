@@ -86,6 +86,7 @@ weapons: [
          width: 10
          lifetime: 280
          damage: 50
+         fragRandomSpread: 0
          colors: [
             84F491FF
             BDFFC4FF
