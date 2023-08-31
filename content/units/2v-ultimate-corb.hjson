@@ -73,8 +73,6 @@ weapons: [
    continuous: true
    bullet: {
       type: ArtilleryBulletType
-      speed: 5
-      lifetime: 100
       despawnUnit: crawler
       }
    }
