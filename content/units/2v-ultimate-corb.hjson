@@ -73,6 +73,7 @@ weapons: [
    continuous: true
    bullet: {
       type: ArtilleryBulletType
+      lifetime: 60
       }
    }
 ]
