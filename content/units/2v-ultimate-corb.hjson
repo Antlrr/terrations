@@ -70,33 +70,32 @@ weapons: [
    bullet: {
       spawnBullets: [
          {
-         type: RailBulletType
-         length: 320
-         pointEffect: railTrail
+         type: LaserBulletType
+         length: 520
+         width: 3
+         lifetime: 90
+         sideWidth: 0
+         sideLength: 0
          }
          {
          type: BulletType
-         collides: false
          speed: 0
-         lifetime: 1
-         despawnUnit: terration-pylon
-         hitEffect: none
-         smokeEffect: none
-         despawnUnitRadius: 0
-         despawnEffect: {
-            type: ParticleEffect
-            particles: 24
-            length: -32
-            baseLength: 0
-            lifetime: 100
-            interp: pow5Out
-            sizeInterp: pow10In
-            lightColor: BDFFC4FF
-            colorFrom: BDFFC455
-            colorTo: BDFFC455
-            sizeFrom: 6.5
-            sizeTo: 0
-            layer: 110
+         lifetime: 80
+         fragBullets: 1
+         fragRandomSpread: 0
+         fragSpread: 0
+         fragBullet: {
+            type: ContinuousLaserBulletType
+            length: 520
+            width: 10
+            lifetime: 280
+            damage: 50
+            colors: [
+               84F491FF
+               BDFFC4FF
+               FFFFFF
+                     ]
+                  }
                }
             }
          ]
