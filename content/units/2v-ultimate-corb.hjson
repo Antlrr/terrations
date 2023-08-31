@@ -63,10 +63,10 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 90
+   shootStatusDuration: 450
    x: 0
    y: 0
-   reload: 120
+   reload: 360
    continuous: true
    bullet: {
       spawnBullets: [
