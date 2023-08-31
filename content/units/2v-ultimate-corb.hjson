@@ -72,7 +72,6 @@ weapons: [
    reload: 1
    bullet: {
       type: BulletType
-      scaleLife: true
       speed: 6
       lifetime: 80
       despawnUnit: crawler
