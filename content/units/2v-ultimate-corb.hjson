@@ -67,7 +67,6 @@ weapons: [
    x: 0
    y: 0
    reload: 360
-   continuous: true
    bullet: {
       spawnBullets: [
          {
@@ -80,8 +79,10 @@ weapons: [
          }
          {
          type: BulletType
+         keepVelocity: false
          speed: 0
          lifetime: 80
+         shootSound: none
          fragBullets: 1
          fragRandomSpread: 0
          fragSpread: 0
