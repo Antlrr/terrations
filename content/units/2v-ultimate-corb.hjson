@@ -71,6 +71,7 @@ weapons: [
       type: BulletType
       speed: 0
       lifetime: 1
+      shootSound: none
       spawnBullets: [
          {
          type: LaserBulletType
