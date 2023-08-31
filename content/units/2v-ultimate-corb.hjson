@@ -81,16 +81,16 @@ weapons: [
       smokeEffect: none
       despawnEffect: {
          type: ParticleEffect
-         particles: 6
-         length: -8
+         particles: 10
+         length: -10
          baseLength: 0
          lifetime: 100
          interp: pow5Out
          sizeInterp: pow10In
          lightColor: BDFFC4FF
-         colorFrom: BDFFC4FF
-         colorTo: BDFFC4FF
-         sizeFrom: 4
+         colorFrom: BDFFC455
+         colorTo: BDFFC455
+         sizeFrom: 6
          sizeTo: 0
          layer: 110
          }
