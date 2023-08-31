@@ -30,7 +30,7 @@ weapons: [
    shootStatusDuration: 120
    x: 0
    y: 0
-   reload: 690
+   reload: 370
    shootSound: explosionbig
    display: false
    parts: [
@@ -79,8 +79,31 @@ weapons: [
       lifetime: 100
       sideWidth: 0
       sideLength: 0
+      }
+   }
+   {
+   rotate: false
+   x: 0
+   y: 0
+   reload: 370
+   continuous: true
+   shootSound: laserbig
+   chargeSound: lasercharge2
+   shoot: {
+     firstShotDelay: 80
+   }
+   bullet: {
+      type: ContinuousLaserBulletType
+      length: 520
+      width: 10
+      lifetime: 280
+      damage: 50
+      colors: [
+         84F491FF
+         BDFFC4FF
+         FFFFFF
+         ]
       fragBullets: 1
-      fragRandomSpread: 0
       fragBullet: {
          type: ContinuousLaserBulletType
          length: 520
@@ -95,4 +118,5 @@ weapons: [
          }
       }
    }
+]
 ]
