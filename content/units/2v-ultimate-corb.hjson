@@ -66,16 +66,26 @@ weapons: [
    shootStatusDuration: 450
    x: 0
    y: 0
-   reload: 360
+   reload: 520
    bullet: {
       spawnBullets: [
          {
-         type: LaserBulletType
-         length: 520
-         width: 3
-         lifetime: 90
-         sideWidth: 0
-         sideLength: 0
+         type: BulletType
+         keepVelocity: false
+         speed: 0
+         lifetime: 80
+         shootSound: none
+         fragBullets: 1
+         fragRandomSpread: 0
+         fragSpread: 0
+         fragBullet: {
+            type: LaserBulletType
+            length: 520
+            width: 3
+            lifetime: 90
+            sideWidth: 0
+            sideLength: 0
+            }
          }
          {
          type: BulletType
@@ -88,6 +98,7 @@ weapons: [
          fragSpread: 0
          fragBullet: {
             type: ContinuousLaserBulletType
+            shootSound: laserbig
             length: 520
             width: 10
             lifetime: 280
