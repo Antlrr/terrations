@@ -74,7 +74,7 @@ weapons: [
       type: BulletType
       scaleLife: true
       speed: 40
-      lifetime: 40
+      lifetime: 2
       despawnUnit: crawler
       }
    }
