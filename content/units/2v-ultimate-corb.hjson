@@ -76,7 +76,7 @@ weapons: [
       collidesTiles: true
       speed: 6
       lifetime: 80
-      despawnUnit: crawler
+      despawnUnit: terration-pylon
       hitEffect: none
       smokeEffect: none
       despawnEffect: {
