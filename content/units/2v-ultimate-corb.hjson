@@ -66,16 +66,17 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 750
+   shootStatusDuration: 10
    x: 0
    y: 0
-   reload: 370
+   reload: 60
    continuous: true
    bullet: {
       type: BulletType
       scaleLife: true
       speed: 40
       lifetime: 100
+      despawnUnit: crawler
       }
    }
 ]
