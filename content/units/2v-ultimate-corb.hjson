@@ -63,10 +63,11 @@ weapons: [
    {
    rotate: false
    shootStatus: unmoving
-   shootStatusDuration: 0
+   shootStatusDuration: 90
    x: 0
    y: 0
    reload: 120
+   continuous: true
    bullet: {
       spawnBullets: [
          {
@@ -94,7 +95,8 @@ weapons: [
                84F491FF
                BDFFC4FF
                FFFFFF
-                     ]
+                        ]
+                     }
                   }
                }
             }
