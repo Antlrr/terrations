@@ -37,13 +37,13 @@ engines: [
       radius: 3
     }
     {
-      x: -20
-      y: 10
+      x: -10
+      y: -10
       radius: 3
     }
     {
       x: 10
-      y: -20
+      y: 10
       radius: 3
     }
   ]
