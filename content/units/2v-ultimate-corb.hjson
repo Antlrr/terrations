@@ -79,10 +79,11 @@ weapons: [
       despawnUnit: terration-pylon
       hitEffect: none
       smokeEffect: none
+      despawnUnitRaidius: 0
       despawnEffect: {
          type: ParticleEffect
-         particles: 15
-         length: -24
+         particles: 24
+         length: -32
          baseLength: 0
          lifetime: 100
          interp: pow5Out
@@ -90,7 +91,7 @@ weapons: [
          lightColor: BDFFC4FF
          colorFrom: BDFFC455
          colorTo: BDFFC455
-         sizeFrom: 6
+         sizeFrom: 6.5
          sizeTo: 0
          layer: 110
          }
