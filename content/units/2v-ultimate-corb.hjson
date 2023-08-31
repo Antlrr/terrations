@@ -71,8 +71,8 @@ weapons: [
    y: 0
    reload: 60
    bullet: {
-      type: ArtilleryBulletType
-      speed: 5
+      type: BulletType
+      speed: 10
       lifetime: 100
       despawnUnit: crawler
       }
