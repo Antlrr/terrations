@@ -68,24 +68,17 @@ weapons: [
    y: 0
    reload: 520
    bullet: {
+      type: BulletType
+      speed: 0
+      lifetime: 1
       spawnBullets: [
          {
-         type: BulletType
-         keepVelocity: false
-         speed: 0
-         lifetime: 80
-         shootSound: none
-         fragBullets: 1
-         fragRandomSpread: 0
-         fragSpread: 0
-         fragBullet: {
-            type: LaserBulletType
-            length: 520
-            width: 3
-            lifetime: 90
-            sideWidth: 0
-            sideLength: 0
-            }
+         type: LaserBulletType
+         length: 520
+         width: 3
+         lifetime: 90
+         sideWidth: 0
+         sideLength: 0
          }
          {
          type: BulletType
