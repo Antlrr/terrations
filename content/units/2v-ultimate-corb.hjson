@@ -90,7 +90,7 @@ weapons: [
    shootSound: laserbig
    chargeSound: lasercharge2
    shoot: {
-     firstShotDelay: 150
+     firstShotDelay: 130
    }
    bullet: {
       type: ContinuousLaserBulletType
