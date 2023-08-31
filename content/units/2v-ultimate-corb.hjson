@@ -70,10 +70,11 @@ weapons: [
    x: 0
    y: 0
    reload: 60
-   continuous: true
    bullet: {
       type: ArtilleryBulletType
-      lifetime: 60
+      speed: 5
+      lifetime: 100
+      despawnUnit: crawler
       }
    }
 ]
