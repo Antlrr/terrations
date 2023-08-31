@@ -71,10 +71,10 @@ weapons: [
    y: 0
    reload: 370
    shootSound: lasercharge2
-   despawnSound: laserbig
-   display: false
+   continuous: true
    bullet: {
       type: LaserBulletType
+      despawnSound: laserbig
       length: 520
       width: 3
       lifetime: 100
@@ -82,6 +82,7 @@ weapons: [
       sideLength: 0
       fragBullets: 1 
       fragRandomSpread: 0
+      fragVelocityMax: 0
       fragBullet: {
          type: ContinuousLaserBulletType
          length: 520
