@@ -95,6 +95,14 @@ weapons: [
          sizeTo: 0
          layer: 110
          }
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragBullet: {
+         type: RailBulletType
+         length: 480
+         furthest: 480
+         }
       }
    }
 ]
