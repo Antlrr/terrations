@@ -85,12 +85,12 @@ weapons: [
    rotate: false
    x: 0
    y: 0
-   reload: 360
+   reload: 300
    continuous: true
    shootSound: laserbig
    chargeSound: lasercharge2
    shoot: {
-     firstShotDelay: 90
+     firstShotDelay: 150
    }
    bullet: {
       type: ContinuousLaserBulletType
