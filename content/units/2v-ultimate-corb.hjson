@@ -34,7 +34,6 @@ parts: [
            strokeTo: 1
            radiusTo: 10
            radius: 0
-           recoil: 0
         }
         {
           type: HaloPart
@@ -47,7 +46,6 @@ parts: [
           triLengthTo: 10
           color: BDFFC4FF
           layer: 110
-          recoil: 0
         }
         {
           type: HaloPart
@@ -59,7 +57,6 @@ parts: [
           triLengthTo: 10
           color: BDFFC4FF
           layer: 110
-          recoil: 0
         }
       ]
 weapons: [
@@ -79,7 +76,7 @@ weapons: [
       despawnUnit: terration-pylon
       hitEffect: none
       smokeEffect: none
-      despawnUnitRaidius: 0
+      despawnUnitRadius: 0
       despawnEffect: {
          type: ParticleEffect
          particles: 24
@@ -101,8 +98,9 @@ weapons: [
       fragBullet: {
          type: RailBulletType
          length: 320
-         furthest: 320
+         farthest: 320
          trailEffect: instTrail
+         shootEffect: instShoot
          }
       }
    }
