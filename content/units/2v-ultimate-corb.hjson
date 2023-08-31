@@ -80,13 +80,13 @@ weapons: [
       sideWidth: 0
       sideLength: 0
       fragBullets: 1
+      fragRandomSpread: 0
       fragBullet: {
          type: ContinuousLaserBulletType
          length: 520
          width: 10
          lifetime: 280
          damage: 50
-         fragRandomSpread: 0
          colors: [
             84F491FF
             BDFFC4FF
