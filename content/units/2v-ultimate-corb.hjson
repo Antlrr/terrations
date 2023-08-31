@@ -73,7 +73,6 @@ weapons: [
    continuous: true
    bullet: {
       type: ArtilleryBulletType
-      despawnUnit: crawler
       }
    }
 ]
