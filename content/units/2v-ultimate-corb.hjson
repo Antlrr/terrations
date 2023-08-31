@@ -68,11 +68,18 @@ weapons: [
    y: 0
    reload: 120
    bullet: {
+      type: RailBulletType
+      length: 320
+      pointEffect: railTrail
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragBullet: {
       type: BulletType
       collides: false
       collidesTiles: true
-      speed: 6
-      lifetime: 80
+      speed: 0
+      lifetime: 1
       despawnUnit: terration-pylon
       hitEffect: none
       smokeEffect: none
@@ -92,13 +99,6 @@ weapons: [
          sizeTo: 0
          layer: 110
          }
-      fragBullets: 1
-      fragRandomSpread: 0
-      fragSpread: 0
-      fragBullet: {
-         type: RailBulletType
-         length: 320
-         pointEffect: railTrail
          }
       }
    }
