@@ -103,19 +103,6 @@ weapons: [
          BDFFC4FF
          FFFFFF
          ]
-      fragBullets: 1
-      fragBullet: {
-         type: ContinuousLaserBulletType
-         length: 520
-         width: 10
-         lifetime: 280
-         damage: 50
-         colors: [
-            84F491FF
-            BDFFC4FF
-            FFFFFF
-            ]
-         }
       }
    }
 ]
