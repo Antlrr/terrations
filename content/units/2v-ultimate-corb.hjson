@@ -81,8 +81,8 @@ weapons: [
       smokeEffect: none
       despawnEffect: {
          type: ParticleEffect
-         particles: 10
-         length: -10
+         particles: 15
+         length: -12
          baseLength: 0
          lifetime: 100
          interp: pow5Out
