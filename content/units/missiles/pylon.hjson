@@ -26,6 +26,7 @@ drawBody: false
 engineSize: 0
 castShadow: false
 shadowElevation: 0
+drawShadow: false
 parts: [
         {
            type: shapePart
