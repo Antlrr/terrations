@@ -39,23 +39,12 @@ parts: [
         {
           type: HaloPart
           tri: true
-          haloRadius: 10
+          haloRadius: 13
           haloRotateSpeed: 0.4
           radius: 0
-          radiusTo: 6
+          radiusTo: 5
           triLength: 0
-          triLengthTo: 10
-          color: BDFFC4FF
-          layer: 110
-        }
-        {
-          type: HaloPart
-          haloRadius: 10
-          haloRotateSpeed: 0.4
-          radius: 0
-          radiusTo: 10
-          triLength: 0
-          triLengthTo: 10
+          triLengthTo: 8
           color: BDFFC4FF
           layer: 110
         }
