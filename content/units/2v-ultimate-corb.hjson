@@ -86,6 +86,7 @@ weapons: [
          keepVelocity: false
          speed: 0
          lifetime: 80
+         despawnSound: laserbig
          fragBullets: 1
          fragRandomSpread: 0
          fragSpread: 0
