@@ -1,5 +1,5 @@
 flying: true
-speed: 3.5
+speed: 2
 rotateSpeed: 7
 health: 100
 outlineColor: 363851FF
@@ -27,7 +27,8 @@ weapons: [
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
-      damage: 2
+      damage: 0
+      hitEffect: none
       layer: 110
       length: 4
       width: 1.8
@@ -49,17 +50,16 @@ weapons: [
    continuous: true
    parentizeEffects: true
    shootCone: 360
-   rangeOverride: 24
+   rangeOverride: 18
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
-      damage: 0
-      hitEffect: none
+      damage: 2
       layer: 110
       length: 10
       width: 2
       flareWidth: 0
-      recoil: -0.3
+      recoil: -0.5
       }
    }
 ]
