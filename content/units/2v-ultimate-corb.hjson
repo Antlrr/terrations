@@ -69,6 +69,7 @@ weapons: [
    y: 0
    reload: 520
    shootSound: lasercharge2
+   shootCone: 0
    bullet: {
       type: BulletType
       speed: 0
