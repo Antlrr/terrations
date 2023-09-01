@@ -18,19 +18,20 @@ createScorch: false
 flying: false
 hidden: true
 health: 50
-hitSize: 8
+hitSize: 0
 drawCell: false
 trailLength: 10
 loopSound: pulse
 loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
+castShadow: false
 weapons: [
    {
    x: 0
    y: 0
    alwaysShooting: true
-   reload: 60
+   reload: 100
    rotate: false
    bullet: {
       type: BulletType
@@ -41,12 +42,12 @@ weapons: [
       despawnEffect: none
       shootEffect: {
          type: WaveEffect
-         lifetime: 50
+         lifetime: 60
          sizeFrom: 0
          sizeTo: 30
          strokeFrom: 1
          strokeTo: 0
-         sizeInterp: circleOut
+         sizeInterp: pow5Out
          }
       }
    }
