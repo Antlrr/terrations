@@ -1,5 +1,4 @@
-type: mech
-controller: MissileAI
+type: missile
 deathSound: artillery
 lowAltitude: true
 deathExplosionEffect: none
