@@ -34,6 +34,21 @@ weapons: [
    alwaysShooting: true
    reload: 90
    rotate: false
+   parts: [
+      {
+      type: HaloPart
+      tri: true
+      hollow: true
+      triLength: 0
+      triLengthTo: -3
+      layer: 110
+      color: BDFFC4FF
+      stroke: 0
+      strokeTo: 1
+      radiusTo: 7
+      radius: 0
+      }
+   ]
    bullet: {
       type: BulletType
       lifetime: 1
