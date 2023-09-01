@@ -1,7 +1,7 @@
 type: missile
 controller: MissileAI
 deathSound: artillery
-lowAltitude: false
+lowAltitude: true
 deathExplosionEffect: none
 speed: 0
 rotateSpeed: 3.6
@@ -15,7 +15,7 @@ physics: false
 useUnitCap: false
 createWreck: false
 createScorch: false
-flying: true
+flying: false
 hidden: true
 health: 50
 hitSize: 8
