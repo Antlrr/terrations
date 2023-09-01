@@ -35,25 +35,30 @@ weapons: [
       flareWidth: 0
       }
    }
-]
-abilities: [
-  {
-   type: MoveLightningAbility
-   chance: 10
-   minSpeed: 0.5
-   maxSpeed: 1
-   length: 0
+   {
+   x: 0
+   y: -1.5
+   mirror: false
+   alternate: false
+   top: true
+   display: false
+   rotate: false
+   baseRotation: 180
    shootSound: none
+   alwaysContinuous: true
+   continuous: true
+   parentizeEffects: true
+   shootCone: 360
+   rangeOverride: 18
    bullet: {
       type: ContinuousFlameBulletType
-      shootEffect: none
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
       damage: 2
       layer: 110
       length: 10
       width: 2
       flareWidth: 0
-      recoil: -2
+      recoil: -0.5
       }
    }
 ]
