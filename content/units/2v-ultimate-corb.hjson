@@ -73,6 +73,7 @@ weapons: [
       type: BulletType
       speed: 0
       lifetime: 1
+      rangeOverride: 500
       spawnBullets: [
          {
          type: LaserBulletType
