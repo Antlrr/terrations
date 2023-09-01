@@ -36,7 +36,6 @@ weapons: [
       }
    }
    {
-   name: engine
    x: 0
    y: -1.5
    mirror: false
@@ -51,6 +50,26 @@ weapons: [
    parentizeEffects: true
    shootCone: 360
    rangeOverride: 18
+   bullet: {
+      type: ContinuousFlameBulletType
+      colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
+      damage: 2
+      layer: 110
+      length: 10
+      width: 2
+      flareWidth: 0
+      recoil: -0.5
+      }
+   }
+]
+abilities: [
+  {
+   type: MoveLightningAbility
+   chance: 10
+   minSpeed: 2
+   maxSpeed: 2
+   length: 0
+   shootSound: none
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
