@@ -49,6 +49,7 @@ weapons: [
    continuous: true
    parentizeEffects: true
    shootCone: 360
+   rangeOverride: 24
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
