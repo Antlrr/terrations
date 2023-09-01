@@ -6,7 +6,7 @@ outlineColor: 363851FF
 engineSize: 0
 accel: 0.3
 drag: 0.08
-circleTarget: true
+controller: HugAI
 omniMovement: false
 weapons: [
    {
