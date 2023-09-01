@@ -30,7 +30,7 @@ shadowElevation: 0
 weapons: [
    {
    x: 0
-   y: 0
+   y: -1
    alwaysShooting: true
    reload: 90
    rotate: false
