@@ -5,7 +5,7 @@ lowAltitude: true
 deathExplosionEffect: none
 speed: 0
 rotateSpeed: 3.6
-lifetime: 120
+lifetime: 300
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -41,8 +41,9 @@ weapons: [
       despawnEffect: none
       shootEffect: {
          type: WaveEffect
+         lifetime: 40
          sizeFrom: 0
-         sizeTo: 10
+         sizeTo: 30
          strokeFrom: 1
          strokeTo: 0
          }
