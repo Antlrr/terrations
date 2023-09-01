@@ -26,12 +26,13 @@ loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
 castShadow: false
+shadowElevation: 0
 weapons: [
    {
    x: 0
    y: 0
    alwaysShooting: true
-   reload: 100
+   reload: 90
    rotate: false
    bullet: {
       type: BulletType
@@ -45,7 +46,7 @@ weapons: [
          lifetime: 60
          sizeFrom: 0
          sizeTo: 30
-         strokeFrom: 1
+         strokeFrom: 2
          strokeTo: 0
          sizeInterp: pow5Out
          }
