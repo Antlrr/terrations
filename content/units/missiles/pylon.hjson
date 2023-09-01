@@ -27,20 +27,30 @@ engineSize: 0
 castShadow: false
 shadowElevation: 0
 parts: [
-   {
-      type: HaloPart
-      tri: true
-      hollow: true
-      triLength: 0
-      triLengthTo: -3
-      layer: 110
-      color: BDFFC4FF
-      stroke: 0
-      strokeTo: 1
-      radiusTo: 7
-      radius: 0
-   }
-]
+        {
+           type: shapePart
+           hollow: true
+           circle: true
+           layer: 110
+           color: BDFFC4FF
+           stroke: 0
+           strokeTo: 1
+           radiusTo: 7
+           radius: 0
+        }
+        {
+          type: HaloPart
+          tri: true
+          haloRadius: 13
+          haloRotateSpeed: 0.4
+          radius: 0
+          radiusTo: 5
+          triLength: 0
+          triLengthTo: 8
+          color: BDFFC4FF
+          layer: 110
+        }
+      ]
 weapons: [
    {
    x: 0
