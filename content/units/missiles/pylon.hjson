@@ -30,7 +30,7 @@ weapons: [
    x: 0
    y: 0
    alwaysShooting: true
-   reload: 30
+   reload: 60
    rotate: false
    bullet: {
       type: BulletType
@@ -41,11 +41,12 @@ weapons: [
       despawnEffect: none
       shootEffect: {
          type: WaveEffect
-         lifetime: 40
+         lifetime: 50
          sizeFrom: 0
          sizeTo: 30
          strokeFrom: 1
          strokeTo: 0
+         sizeInterp: circleOut
          }
       }
    }
