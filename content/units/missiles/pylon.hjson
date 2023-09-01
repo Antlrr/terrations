@@ -1,4 +1,4 @@
-type: missile
+type: mech
 controller: MissileAI
 deathSound: artillery
 lowAltitude: true
@@ -27,15 +27,8 @@ drawBody: false
 engineSize: 0
 castShadow: false
 shadowElevation: 0
-weapons: [
+parts: [
    {
-   x: 0
-   y: -2
-   alwaysShooting: true
-   reload: 90
-   rotate: false
-   parts: [
-      {
       type: HaloPart
       tri: true
       hollow: true
@@ -47,8 +40,15 @@ weapons: [
       strokeTo: 1
       radiusTo: 7
       radius: 0
-      }
-   ]
+   }
+]
+weapons: [
+   {
+   x: 0
+   y: -2
+   alwaysShooting: true
+   reload: 90
+   rotate: false
    bullet: {
       type: BulletType
       lifetime: 1
