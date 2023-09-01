@@ -23,6 +23,7 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.2
 faceTarget: true
+range: 500
 parts: [
         {
            type: shapePart
