@@ -6,6 +6,8 @@ outlineColor: 363851FF
 engineSize: 0
 accel: 0.3
 drag: 0.08
+circleTarget: true
+omniMovement: false
 weapons: [
    {
    name: engine
@@ -25,7 +27,8 @@ weapons: [
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
-      damage: 4
+      damage: 0
+      hitEffect: none
       layer: 110
       length: 4
       width: 1.8
