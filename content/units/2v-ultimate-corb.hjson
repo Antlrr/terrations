@@ -33,7 +33,7 @@ parts: [
            color: BDFFC4FF
            stroke: 0
            strokeTo: 1
-           radiusTo: 10
+           radiusTo: 7
            radius: 0
         }
         {
