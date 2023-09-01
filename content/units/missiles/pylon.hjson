@@ -25,29 +25,27 @@ loopSound: pulse
 loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
-engines: [
-    {
-      x: -10
-      y: 10
-      radius: 3
-      rotation: 135
-    }
-    {
-      x: 10
-      y: -10
-      radius: 3
-      rotation: -45
-    }
-    {
-      x: -10
-      y: -10
-      radius: 3
-      rotation: -135
-    }
-    {
-      x: 10
-      y: 10
-      radius: 3
-      rotation: 45
-    }
-  ]
+weapons: [
+   {
+   x: 0
+   y: 0
+   alwaysShooting: true
+   reload: 30
+   rotate: false
+   bullet: {
+      type: BulletType
+      lifetime: 1
+      speed: 0
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 10
+         strokeFrom: 1
+         strokeTo: 0
+         }
+      }
+   }
+]
