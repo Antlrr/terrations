@@ -49,7 +49,6 @@ weapons: [
    continuous: true
    parentizeEffects: true
    shootCone: 360
-   rangeOverride: 18
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
@@ -59,6 +58,7 @@ weapons: [
       width: 2
       flareWidth: 0
       recoil: -0.5
+      rangeOverride: 18
       }
    }
 ]
@@ -66,7 +66,7 @@ abilities: [
   {
    type: MoveLightningAbility
    chance: 10
-   minSpeed: 2
+   minSpeed: 1.5
    maxSpeed: 2
    length: 0
    shootSound: none
