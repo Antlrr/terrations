@@ -48,16 +48,17 @@ weapons: [
    alwaysContinuous: true
    continuous: true
    parentizeEffects: true
+   shootCone: 360
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
       damage: 0
       hitEffect: none
       layer: 110
-      length: 6
+      length: 10
       width: 2
       flareWidth: 0
-      recoil: -2
+      recoil: -0.3
       }
    }
 ]
