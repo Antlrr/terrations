@@ -24,6 +24,7 @@ legPhysicsLayer: false
 shadowElevation: 0.2
 faceTarget: true
 range: 500
+hidden: true
 parts: [
         {
            type: shapePart
@@ -93,6 +94,14 @@ weapons: [
                BDFFC4FF
                FFFFFF
                   ]
+            fragBullets: 2
+            fragRandomSpread: 5
+            fragBullet: {
+                  type: LightningBulletType
+                  damage: 14
+                  lightningColor: BDFFC4FF
+                  lightningLength: 520
+                  }
                }
             }
          ]
