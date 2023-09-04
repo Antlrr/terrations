@@ -100,7 +100,7 @@ weapons: [
          type: BulletType
          keepVelocity: false
          speed: 0
-         lifetime: 80
+         lifetime: 1
          despawnSound: spark
          fragLifeMin: 10
          fragLifeMax: 20
@@ -110,11 +110,13 @@ weapons: [
          fragBullet: {
             fragBullets: 1
             fragSpread: 2
+            speed: 0
+            lifetime: 0
             fragBullet: {
                   type: LightningBulletType
                   damage: 14
                   lightningColor: BDFFC4FF
-                  lightningLength: 520
+                  lightningLength: 40
                   }
                }
             }
