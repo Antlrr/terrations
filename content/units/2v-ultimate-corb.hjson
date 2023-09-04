@@ -56,7 +56,7 @@ parts: [
           radius: 0
           radiusTo: 2
           triLength: 0
-          triLengthTo: -4
+          triLengthTo: 4
           color: BDFFC4FF
           layer: 110
         }
