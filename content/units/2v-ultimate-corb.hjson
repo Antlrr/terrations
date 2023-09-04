@@ -48,6 +48,17 @@ parts: [
           triLengthTo: 8
           color: BDFFC4FF
           layer: 110
+        }        {
+          type: HaloPart
+          tri: true
+          haloRadius: 6
+          haloRotateSpeed: 0.4
+          radius: 0
+          radiusTo: 2
+          triLength: 0
+          triLengthTo: -4
+          color: BDFFC4FF
+          layer: 110
         }
       ]
 weapons: [
