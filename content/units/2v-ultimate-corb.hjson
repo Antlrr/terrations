@@ -118,7 +118,7 @@ weapons: [
             collides: false
             fragBullet: {
                   type: LightningBulletType
-                  damage: 14
+                  damage: 45
                   lightningColor: BDFFC4FF
                   lightningLength: 40
                   }
