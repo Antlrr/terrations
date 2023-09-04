@@ -94,7 +94,7 @@ weapons: [
                BDFFC4FF
                FFFFFF
                   ]
-            fragBullets: 2
+            fragBullets: 10
             fragRandomSpread: 5
             fragBullet: {
                   type: LightningBulletType
