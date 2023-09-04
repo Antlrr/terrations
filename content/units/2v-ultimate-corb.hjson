@@ -36,6 +36,7 @@ parts: [
            strokeTo: 1
            radiusTo: 8
            radius: 0
+           progress: warmup
         }
         {
           type: HaloPart
@@ -48,7 +49,9 @@ parts: [
           triLengthTo: 8
           color: BDFFC4FF
           layer: 110
-        }        {
+          progress: warmup
+        }        
+        {
           type: HaloPart
           tri: true
           haloRadius: 10
@@ -59,6 +62,7 @@ parts: [
           triLengthTo: 6
           color: BDFFC4FF
           layer: 110
+          progress: warmup
         }
       ]
 weapons: [
