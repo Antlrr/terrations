@@ -94,13 +94,27 @@ weapons: [
                BDFFC4FF
                FFFFFF
                   ]
-            fragBullets: 10
-            fragRandomSpread: 5
+         }
+         {
+         type: BulletType
+         keepVelocity: false
+         speed: 0
+         lifetime: 80
+         despawnSound: spark
+         fragLifeMin: 10
+         fragLifeMax: 20
+         fragBullets: 7
+         fragRandomSpread: 0
+         fragSpread: 0
+         fragBullet: {
+            fragBullets: 1
+            fragSpread: 2
             fragBullet: {
-                  type: LightningBulletType
-                  damage: 14
-                  lightningColor: BDFFC4FF
-                  lightningLength: 520
+                     type: LightningBulletType
+                     damage: 14
+                     lightningColor: BDFFC4FF
+                     lightningLength: 520
+                     }
                   }
                }
             }
