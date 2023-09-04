@@ -102,8 +102,8 @@ weapons: [
          speed: 0
          lifetime: 60
          fragLifeMin: 5
-         fragLifeMax: 10
-         fragBullets: 7
+         fragLifeMax: 15
+         fragBullets: 20
          fragRandomSpread: 0
          fragSpread: 0
          fragBullet: {
@@ -113,7 +113,7 @@ weapons: [
             fragBullets: 1
             fragSpread: 2
             speed: 2
-            lifetime: 10
+            lifetime: 15
             despawnSound: spark
             fragBullet: {
                   type: LightningBulletType
