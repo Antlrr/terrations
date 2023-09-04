@@ -115,6 +115,7 @@ weapons: [
             speed: 2
             lifetime: 15
             despawnSound: spark
+            collides: false
             fragBullet: {
                   type: LightningBulletType
                   damage: 14
