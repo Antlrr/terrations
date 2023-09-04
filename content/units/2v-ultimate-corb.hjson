@@ -93,7 +93,8 @@ weapons: [
                84F491FF
                BDFFC4FF
                FFFFFF
-                  ]
+               ]
+            }
          }
          {
          type: BulletType
@@ -110,11 +111,10 @@ weapons: [
             fragBullets: 1
             fragSpread: 2
             fragBullet: {
-                     type: LightningBulletType
-                     damage: 14
-                     lightningColor: BDFFC4FF
-                     lightningLength: 520
-                     }
+                  type: LightningBulletType
+                  damage: 14
+                  lightningColor: BDFFC4FF
+                  lightningLength: 520
                   }
                }
             }
