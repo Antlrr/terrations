@@ -51,12 +51,12 @@ parts: [
         }        {
           type: HaloPart
           tri: true
-          haloRadius: 6
+          haloRadius: 10
           haloRotateSpeed: -0.4
           radius: 0
-          radiusTo: 2
+          radiusTo: 4
           triLength: 0
-          triLengthTo: 4
+          triLengthTo: 6
           color: BDFFC4FF
           layer: 110
         }
