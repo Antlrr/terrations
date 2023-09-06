@@ -8,11 +8,9 @@ health: 30000
 armor: 18
 hitSize: 8
 speed: 0.12
-drag: 0.3
 rotateSpeed: 0.42
 groundLayer: 75
 targetAir: false
-hovering: true
 shadowElevation: 0.2
 faceTarget: false
 range: 500
@@ -67,7 +65,7 @@ weapons: [
    shootSound: railgun
    shoot: {
       type: ShootHelix
-      scl: 3
+      scl: 2
       mag: 4
       shots: 3
    }
@@ -78,7 +76,7 @@ weapons: [
       lifetime: 90
       trailLength: 10
       trailWidth: 1.8
-      speed: 5
+      speed: 8
       }
    }
 ]
