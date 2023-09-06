@@ -65,21 +65,24 @@ weapons: [
    y: 0
    reload: 60
    shootSound: railgun
-   dest: [
-      {
-      type: ShootHelix
-      scl: 3
-      mag: 4
-      shots: 3
-      }
-   ]
+   shoot: {
+      dest: [
+         {
+         type: ShootHelix
+         scl: 3
+         mag: 4
+         shots: 3
+         }
+      ]
+   }
    bullet: {
       type: BasicBulletType
-      height: 10
-      width: 10
+      height: 8
+      width: 6
       lifetime: 90
       trailLength: 10
-      trailWidth: 4
+      trailWidth: 1.8
+      speed: 5
       }
    }
 ]
