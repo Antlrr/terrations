@@ -118,10 +118,13 @@ weapons: [
             collides: false
             trailEffect: {
                type: ParticleEffect
+               baseLength: 0
+               length: 0
                particles: 1
-               chance: 1
-               sizeFrom: 1
-               sizeTo: 1
+               sizeFrom: 2
+               sizeTo: 2
+               colorFrom: ffffff
+               colorTo" ffffff00
                layer: 100
             }
          }  
