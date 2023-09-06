@@ -7,8 +7,8 @@ trailLength: 100
 health: 30000
 armor: 18
 hitSize: 8
-speed: 0.12
-rotateSpeed: 0.42
+speed: 0.3
+rotateSpeed: 0.92
 groundLayer: 75
 targetAir: false
 shadowElevation: 0.2
