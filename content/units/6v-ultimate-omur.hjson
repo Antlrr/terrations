@@ -65,8 +65,8 @@ weapons: [
    shootSound: none
    shoot: {
       type: ShootHelix
-      scl: 3
-      mag: 0.5
+      scl: 1
+      mag: 2.3
       shots: 3
    }
    bullet: {
