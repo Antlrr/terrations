@@ -130,7 +130,7 @@ weapons: [
             fragBullet: {
                type: RailBulletType
                damage: 2100
-               length: 747
+               length: 727
                pierce: true
                pointEffect: railTrail
                }
