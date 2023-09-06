@@ -116,6 +116,14 @@ weapons: [
             keepVelocity: false
             homingPower: 0
             collides: false
+            trailEffect: {
+               type: ParticleEffect
+               particles: 1
+               chance: 1
+               sizeFrom: 1
+               sizeTo: 1
+               layer: 100
+            }
          }  
          {
             type: BulletType
