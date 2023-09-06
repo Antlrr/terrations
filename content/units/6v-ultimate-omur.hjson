@@ -65,9 +65,9 @@ weapons: [
    shootSound: none
    shoot: {
       type: ShootHelix
-      scl: 1
-      mag: 2.3
-      shots: 3
+      scl: 1.5
+      mag: 3
+      shots: 2
    }
    bullet: {
       type: BasicBulletType
@@ -93,7 +93,7 @@ weapons: [
       lifetime: 90
       trailLength: 12
       trailWidth: 3
-      speed: 8.6
+      speed: 8.3
       }
    }
 ]
