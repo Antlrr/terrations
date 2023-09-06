@@ -66,8 +66,6 @@ weapons: [
    reload: 60
    shootSound: railgun
    shoot: {
-      dest: [
-         {
          type: ShootHelix
          scl: 3
          mag: 4
