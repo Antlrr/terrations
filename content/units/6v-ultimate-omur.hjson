@@ -77,6 +77,10 @@ weapons: [
       trailLength: 9
       trailWidth: 2
       speed: 8
+      hitEffect: none
+      despawnEffect: none
+      pierce: true
+      pierceBuilding: true
       }
    }
    {
@@ -94,6 +98,8 @@ weapons: [
       trailLength: 12
       trailWidth: 3.5
       speed: 8.3
+      pierce: true
+      pierceBuilding: true
       }
    }
 ]
