@@ -124,7 +124,7 @@ weapons: [
                sizeFrom: 2
                sizeTo: 2
                colorFrom: ffffff
-               colorTo" ffffff00
+               colorTo: ffffff00
                layer: 100
             }
          }  
