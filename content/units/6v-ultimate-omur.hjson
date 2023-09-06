@@ -63,6 +63,7 @@ weapons: [
    y: 0
    reload: 60
    shootSound: none
+   rotateSpeed: 2
    shoot: {
       type: ShootHelix
       scl: 1.5
@@ -90,6 +91,7 @@ weapons: [
    y: 0
    reload: 60
    shootSound: railgun
+   rotateSpeed: 2
    bullet: {
       type: BasicBulletType
       height: 18
