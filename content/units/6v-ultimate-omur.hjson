@@ -124,9 +124,9 @@ weapons: [
                particles: 1
                sizeFrom: 2
                sizeTo: 2
-               colorFrom: ffffff
-               colorTo: ffffff
-               layer: 100
+               colorFrom: 000000
+               colorTo: 000000
+               layer: 110
             }
          }  
          {
