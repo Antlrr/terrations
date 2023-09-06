@@ -1,0 +1,85 @@
+type: naval
+accel: 0.2
+trailScl: 1.2
+waveTrailX: 23
+waveTrailY: -32
+trailLength: 100
+health: 30000
+armor: 18
+hitSize: 8
+speed: 0.12
+drag: 0.3
+rotateSpeed: 0.42
+groundLayer: 75
+targetAir: false
+hovering: true
+shadowElevation: 0.2
+faceTarget: false
+range: 500
+hidden: true
+parts: [
+        {
+           type: shapePart
+           hollow: true
+           circle: true
+           layer: 110
+           color: BDFFC4FF
+           stroke: 0
+           strokeTo: 1
+           radiusTo: 8
+           radius: 0
+           progress: warmup
+        }
+        {
+          type: HaloPart
+          tri: true
+          haloRadius: 13
+          haloRotateSpeed: 0.4
+          radius: 0
+          radiusTo: 5
+          triLength: 0
+          triLengthTo: 8
+          color: BDFFC4FF
+          layer: 110
+          progress: warmup
+        }        
+        {
+          type: HaloPart
+          tri: true
+          haloRadius: 10
+          haloRotateSpeed: -0.4
+          radius: 0
+          radiusTo: 4
+          triLength: 0
+          triLengthTo: 6
+          color: BDFFC4FF
+          layer: 110
+          progress: warmup
+        }
+      ]
+weapons: [
+   {
+   rotate: true
+   top: true
+   x: 0
+   y: 0
+   reload: 520
+   shootSound: railgun
+   dest: [
+      {
+      type: ShootHelix
+      scl: 3
+      mag: 4
+      shots: 3
+      }
+   ]
+   bullet: {
+      type: BasicBulletType
+      height: 10
+      width: 10
+      lifetime: 90
+      trailLength: 10
+      trailWidth: 4
+      }
+   }
+]
