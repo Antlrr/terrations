@@ -127,15 +127,8 @@ weapons: [
       type: RailBulletType
       damage: 2100
       length: 600
-      lifetime: 90
-      trailLength: 12
-      trailWidth: 3.5
-      speed: 8.3
       pierce: true
-      pierceBuilding: true
-      keepVelocity: false
-      homingPower: 0
-      collides: false
+      pointEffect: railTrail
       }
    }
 ]
