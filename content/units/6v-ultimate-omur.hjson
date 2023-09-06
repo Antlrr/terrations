@@ -65,7 +65,7 @@ weapons: [
    shootSound: none
    shoot: {
       type: ShootHelix
-      scl: 2
+      scl: 4
       mag: 4
       shots: 3
    }
@@ -88,11 +88,11 @@ weapons: [
    shootSound: railgun
    bullet: {
       type: BasicBulletType
-      height: 10
-      width: 10
+      height: 15
+      width: 15
       lifetime: 90
       trailLength: 12
-      trailWidth: 2
+      trailWidth: 3
       speed: 8
       }
    }
