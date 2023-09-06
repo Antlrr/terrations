@@ -72,6 +72,7 @@ weapons: [
    }
    bullet: {
       type: BasicBulletType
+      damage: 300
       height: 10
       width: 8
       lifetime: 90
@@ -84,6 +85,7 @@ weapons: [
       pierceBuilding: true
       keepVelocity: false
       homingPower: 0
+      collides: false
       }
    }
    {
@@ -96,6 +98,7 @@ weapons: [
    rotateSpeed: 2
    bullet: {
       type: BasicBulletType
+      damage: 2
       height: 18
       width: 18
       lifetime: 90
@@ -106,6 +109,7 @@ weapons: [
       pierceBuilding: true
       keepVelocity: false
       homingPower: 0
+      collides: false
       }
    }
 ]
