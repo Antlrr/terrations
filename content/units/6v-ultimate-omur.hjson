@@ -122,7 +122,7 @@ weapons: [
             keepVelocity: false
             speed: 0
             lifetime: 90
-            despawnSound: laserbig
+            despawnSound: railgun
             fragBullets: 1
             fragRandomSpread: 0
             fragSpread: 0
