@@ -82,6 +82,8 @@ weapons: [
       despawnEffect: none
       pierce: true
       pierceBuilding: true
+      keepVelocity: false
+      homingPower: 0
       }
    }
    {
@@ -102,6 +104,8 @@ weapons: [
       speed: 8.3
       pierce: true
       pierceBuilding: true
+      keepVelocity: false
+      homingPower: 0
       }
    }
 ]
