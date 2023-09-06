@@ -1,4 +1,5 @@
 type: naval
+naval: true
 accel: 0.2
 trailScl: 1.2
 waveTrailX: 23
