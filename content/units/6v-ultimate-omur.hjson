@@ -66,12 +66,10 @@ weapons: [
    reload: 60
    shootSound: railgun
    shoot: {
-         type: ShootHelix
-         scl: 3
-         mag: 4
-         shots: 3
-         }
-      ]
+      type: ShootHelix
+      scl: 3
+      mag: 4
+      shots: 3
    }
    bullet: {
       type: BasicBulletType
