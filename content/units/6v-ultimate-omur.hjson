@@ -94,13 +94,39 @@ weapons: [
    x: 0
    y: 0
    reload: 60
-   shootSound: railgun
+   shootSound: mediumCannon
    rotateSpeed: 2
    bullet: {
       type: BasicBulletType
       damage: 2
       height: 18
       width: 18
+      lifetime: 90
+      trailLength: 12
+      trailWidth: 3.5
+      speed: 8.3
+      pierce: true
+      pierceBuilding: true
+      keepVelocity: false
+      homingPower: 0
+      collides: false
+      }
+   }
+   {
+   rotate: true
+   top: true
+   x: 0
+   y: 0
+   reload: 60
+   shootSound: railgun
+   rotateSpeed: 2
+   shoot: {
+      firstShotDelay: 90
+   }
+   bullet: {
+      type: RailBulletType
+      damage: 2100
+      length: 600
       lifetime: 90
       trailLength: 12
       trailWidth: 3.5
