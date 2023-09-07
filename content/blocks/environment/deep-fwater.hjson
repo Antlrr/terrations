@@ -6,4 +6,3 @@ albedo: 0.9
 cacheLayer: water
 liquidDrop: water
 drownTime: 200
-layer: 100
