@@ -54,7 +54,7 @@ weapons: [
    bullet: {
       type: ContinuousFlameBulletType
       colors: [C189D6FF, FFBDEEFF, FFDFF7FF, ffffff]
-      damage: 10
+      damage: 20
       layer: 110
       length: 10
       width: 2
