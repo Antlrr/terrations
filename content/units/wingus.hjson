@@ -8,6 +8,7 @@ accel: 0.3
 drag: 0.08
 controller: HugAI
 omniMovement: false
+faceTarget: true
 weapons: [
    {
    name: engine
