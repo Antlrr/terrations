@@ -37,15 +37,15 @@ weapons: [
        statusDuration: 180
       chargeEffect: { 
          type: ParticleEffect
-         baseLength: 60
+         baseLength: 53
          length: -80
          interp: circleIn
          lifetime: 70
-         particles: 14
+         particles: 20
          cone: 12
-         colorFrom: FCDD88FF
-         colorTo: D06B53FF
-         sizeFrom: 3
+         colorFrom: FCDD888c
+         colorTo: D06B538c
+         sizeFrom: 1
          sizeTo: 0
          } 
        shootEffect: {
