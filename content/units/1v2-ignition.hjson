@@ -39,7 +39,7 @@ weapons: [
          type: ParticleEffect
          baseLength: 60
          length: -60
-         interp: pow5Out
+         interp: circleIn
          lifetime: 70
          particles: 14
          cone: 12
