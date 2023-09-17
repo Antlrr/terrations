@@ -25,19 +25,6 @@ weapons: [
    inaccuracy: 10
    recoil: 0
    cooldownTime: 100
-   chargeEffect: { 
-      type: ParticleEffect
-      baseLength: 60
-      length: -60
-      interp: pow10Out
-      lifetime: 30
-      particles: 14
-      cone: 12
-      colorFrom: FCDD88FF
-      colorTo: D06B53FF
-      sizeFrom: 5
-      sizeTo: 0
-      } 
    shoot: {
       firstShotDelay: 30
    }
@@ -48,6 +35,19 @@ weapons: [
        pierce: true
        pierceBuilding: true
        statusDuration: 180
+      chargeEffect: { 
+         type: ParticleEffect
+         baseLength: 60
+         length: -60
+         interp: pow10Out
+         lifetime: 30
+         particles: 14
+         cone: 12
+         colorFrom: FCDD88FF
+         colorTo: D06B53FF
+         sizeFrom: 5
+         sizeTo: 0
+         } 
        shootEffect: {
           type: ParticleEffect
           length: 60
