@@ -1,0 +1,82 @@
+type: mech
+health: 960
+armor: 8
+rotateSpeed: 4.2
+hitSize: 24
+mechFrontSway: 0.55
+speed: 0.72
+flying: false
+faceTarget: true
+immunities: [
+   burning
+   melting
+]
+range: 40
+weapons: [
+   {
+   shootSound: flame2
+   shootCone: 18
+   rotate: false
+   mirror: false
+   x: 0
+   y: 0
+   top: false
+   reload: 50
+   inaccuracy: 10
+   recoil: 0
+   cooldownTime: 100
+   chargeEffect: { 
+      type: ParticleEffect
+      baseLength: 60
+      length: -60
+      interp: pow10Out
+      lifetime: 30
+      particles: 14
+      cone: 12
+      colorFrom: FCDD88FF
+      colorTo: D06B53FF
+      sizeFrom: 5
+      sizeTo: 0
+      } 
+   shoot: {
+      firstShotDelay: 30
+   }
+   bullet: {
+       type: BulletType
+       damage: 14
+       lifetime: 30
+       pierce: true
+       pierceBuilding: true
+       statusDuration: 180
+       shootEffect: {
+          type: ParticleEffect
+          length: 60
+          interp: circleOut
+          lifetime: 86
+          particles: 8
+          cone: 10
+          colorFrom: FCDD88FF
+          colorTo: D06B53FF
+          sizeFrom: 4
+          sizeTo: 0
+          }
+       hitEffect: hitFlameSmall
+       despawnEffect: none
+       status: melting
+       keepVelocity: false
+       hittable: false
+       fragBullets: 1
+       fragRandomSpread: 10
+       fragBullet: {
+          type: FireBulletType
+          lifetime: 1
+          pierce: true
+          pierceBuilding: true
+          hitEffect: hitFlameSmall
+          despawnEffect: none
+          keepVelocity: false
+          hittable: false
+         }
+      }
+   }
+]
