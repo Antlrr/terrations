@@ -1,0 +1,9 @@
+type: mech
+health: 960
+armor: 8
+rotateSpeed: 2
+mechFrontSway: 0.24
+mechSideSway: 0
+speed: 0.6
+flying: false
+faceTarget: false
