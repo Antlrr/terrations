@@ -1,11 +1,11 @@
 type: mech
 health: 960
 armor: 8
-rotateSpeed: 2
+rotateSpeed: 1.65
 mechFrontSway: 0.24
 mechSideSway: 0
 speed: 0.3
 flying: false
 faceTarget: false
 outlineColor: 363851FF
-mechLegColor: 363851FF
+mechLegColor: 36385185
